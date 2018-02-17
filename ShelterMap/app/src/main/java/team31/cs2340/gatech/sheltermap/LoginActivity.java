@@ -2,6 +2,7 @@ package team31.cs2340.gatech.sheltermap;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -23,6 +24,10 @@ public class LoginActivity extends AppCompatActivity {
 
         username = (EditText) findViewById(R.id.username);
         password = (EditText) findViewById(R.id.password);
+
+        final TextView errorText = (TextView) findViewById(R.id.password);
+        errorText.setTextColor(Color.RED);
+
         cancel = (Button) findViewById(R.id.cancel);
         submit = (Button) findViewById(R.id.submit);
 
@@ -41,15 +46,27 @@ public class LoginActivity extends AppCompatActivity {
         });
 
 
-        submit = (Button) findViewById(R.id.submit);
-        submit.setOnClickListener(new View.OnClickListener() {
+//        submit = (Button) findViewById(R.id.submit);
+//        submit.setOnClickListener(new View.OnClickListener() {
+//
+//            // https://androidsolved.wordpress.com/2015/07/01/how-to-move-from-one-activityscreen-to-another-activityscreen-in-android/
+//            @Override
+//            public void onClick(View view) {
+//                // TODO Auto-generated method stub
+//                Intent go2Account = new Intent(getApplicationContext(), AccountActivity.class);
+//                startActivity(go2Account);
+//            }
+//        });
 
-            // https://androidsolved.wordpress.com/2015/07/01/how-to-move-from-one-activityscreen-to-another-activityscreen-in-android/
-            @Override
+
+        submit.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                // TODO Auto-generated method stub
-                Intent go2Account = new Intent(getApplicationContext(), AccountActivity.class);
-                startActivity(go2Account);
+                if (username.getText().toString().equals("user") && password.getText().toString().equals("pass")){
+                    Intent go2Account = new Intent(LoginActivity.this, AccountActivity.class);
+                    startActivity(go2Account);
+                } else {
+                    errorText.setVisibility(View.VISIBLE);
+                }
             }
         });
 
