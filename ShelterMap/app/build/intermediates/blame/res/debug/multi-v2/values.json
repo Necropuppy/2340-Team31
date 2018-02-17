@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/2340-Team31/ShelterMap/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/M4/2340-Team31/ShelterMap/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
+                {
+                    "source": "/Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/M4/2340-Team31/ShelterMap/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "16,64",
+                        "endColumns": "47,58",
+                        "endOffsets": "59,118"
+                    },
+                    "to": {
+                        "startLines": "765,776",
+                        "startColumns": "4,4",
+                        "startOffsets": "63770,65110",
+                        "endColumns": "47,58",
+                        "endOffsets": "63813,65164"
+                    }
+                },
                 {
                     "source": "/Users/siddudussa/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/86de9f6d322b17b4bfc34d72582664f4/res/values/values.xml",
                     "from": {
@@ -21,20 +38,22 @@
                     }
                 },
                 {
-                    "source": "/Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/2340-Team31/ShelterMap/app/src/main/res/values/dimens.xml",
+                    "source": "/Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/M4/2340-Team31/ShelterMap/app/src/main/res/values/styles.xml",
                     "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "41",
-                        "endOffsets": "53"
+                        "startLines": "3,15,10,17",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "54,525,374,617",
+                        "endLines": "8,15,13,17",
+                        "endColumns": "12,90,12,80",
+                        "endOffsets": "368,611,519,693"
                     },
                     "to": {
-                        "startLines": "657",
-                        "startColumns": "4",
-                        "startOffsets": "57007",
-                        "endColumns": "41",
-                        "endOffsets": "57044"
+                        "startLines": "786,792,793,797",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "65898,66217,66307,66457",
+                        "endLines": "791,792,796,797",
+                        "endColumns": "12,89,12,79",
+                        "endOffsets": "66212,66302,66452,66532"
                     }
                 },
                 {
@@ -57,22 +76,37 @@
                     }
                 },
                 {
-                    "source": "/Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/2340-Team31/ShelterMap/app/src/main/res/values/styles.xml",
+                    "source": "/Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/M4/2340-Team31/ShelterMap/app/src/main/res/values/dimens.xml",
                     "from": {
-                        "startLines": "3,15,10,17",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "54,525,374,617",
-                        "endLines": "8,15,13,17",
-                        "endColumns": "12,90,12,80",
-                        "endOffsets": "368,611,519,693"
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "41",
+                        "endOffsets": "53"
                     },
                     "to": {
-                        "startLines": "786,792,793,797",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "65898,66217,66307,66457",
-                        "endLines": "791,792,796,797",
-                        "endColumns": "12,89,12,79",
-                        "endOffsets": "66212,66302,66452,66532"
+                        "startLines": "657",
+                        "startColumns": "4",
+                        "startOffsets": "57007",
+                        "endColumns": "41",
+                        "endOffsets": "57044"
+                    }
+                },
+                {
+                    "source": "/Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/M4/2340-Team31/ShelterMap/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "153,55,102",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "194,97,148"
+                    },
+                    "to": {
+                        "startLines": "118,119,120",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "6234,6280,6327",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "6275,6322,6373"
                     }
                 },
                 {
@@ -90,23 +124,6 @@
                         "startOffsets": "57049,57108,57156,57823,57898,57974,59904",
                         "endColumns": "58,47,55,74,75,71,65",
                         "endOffsets": "57103,57151,57207,57893,57969,58041,59965"
-                    }
-                },
-                {
-                    "source": "/Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/2340-Team31/ShelterMap/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1,2",
-                        "startColumns": "4,4",
-                        "startOffsets": "16,64",
-                        "endColumns": "47,58",
-                        "endOffsets": "59,118"
-                    },
-                    "to": {
-                        "startLines": "765,776",
-                        "startColumns": "4,4",
-                        "startOffsets": "63770,65110",
-                        "endColumns": "47,58",
-                        "endOffsets": "63813,65164"
                     }
                 },
                 {
@@ -164,23 +181,6 @@
                         "endLines": "2,6,9,10,13,16,17,20,23,24,25,26,30,31,32,33,38,39,40,43,46,47,50,53,56,59,60,63,66,67,72,73,77,78,79,80,81,82,83,84,85,86,87,93",
                         "endColumns": "51,69,11,67,11,11,66,11,11,66,64,64,11,65,65,66,11,68,65,11,11,66,11,11,11,11,64,11,11,64,11,66,11,64,64,61,61,61,58,59,60,60,58,11",
                         "endOffsets": "147,366,499,567,696,822,889,1012,1137,1204,1269,1334,1474,1540,1606,1673,1883,1952,2018,2143,2269,2336,2462,2589,2714,2841,2906,3032,3155,3220,3428,3495,3634,3699,3764,3826,3888,3950,4009,4069,4130,4191,4250,4459"
-                    }
-                },
-                {
-                    "source": "/Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/2340-Team31/ShelterMap/app/src/main/res/values/colors.xml",
-                    "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "153,55,102",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "194,97,148"
-                    },
-                    "to": {
-                        "startLines": "118,119,120",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "6234,6280,6327",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "6275,6322,6373"
                     }
                 },
                 {
