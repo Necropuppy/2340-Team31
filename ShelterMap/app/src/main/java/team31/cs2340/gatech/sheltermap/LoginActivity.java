@@ -12,7 +12,11 @@ import android.widget.TextView;
 
 public class LoginActivity extends AppCompatActivity {
 
+<<<<<<< HEAD
     private EditText username;
+=======
+    private EditText email;
+>>>>>>> nathan
     private EditText password;
     private Button cancel;
     private Button submit;
@@ -22,10 +26,17 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+<<<<<<< HEAD
         username = (EditText) findViewById(R.id.username);
         password = (EditText) findViewById(R.id.password);
 
         final TextView errorText = (TextView) findViewById(R.id.password);
+=======
+        email = (EditText) findViewById(R.id.email);
+        password = (EditText) findViewById(R.id.password);
+
+        final TextView errorText = (TextView) findViewById(R.id.error);
+>>>>>>> nathan
         errorText.setTextColor(Color.RED);
 
         cancel = (Button) findViewById(R.id.cancel);
@@ -45,6 +56,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+<<<<<<< HEAD
 
 //        submit = (Button) findViewById(R.id.submit);
 //        submit.setOnClickListener(new View.OnClickListener() {
@@ -65,6 +77,23 @@ public class LoginActivity extends AppCompatActivity {
                     Intent go2Account = new Intent(LoginActivity.this, AccountActivity.class);
                     startActivity(go2Account);
                 } else {
+=======
+        submit.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                boolean fail = true;
+                for(User u: User.users){
+                    if(u.getEmail().equals(email.getText().toString())){
+                        if(u.getPassword().equals(password.getText().toString())){
+                            //login success
+                            Intent go2Account = new Intent(LoginActivity.this, AccountActivity.class);
+                            startActivity(go2Account);
+                            fail = false;
+                        }
+                    }
+                }
+                if(fail) {
+                    //login fail
+>>>>>>> nathan
                     errorText.setVisibility(View.VISIBLE);
                 }
             }
