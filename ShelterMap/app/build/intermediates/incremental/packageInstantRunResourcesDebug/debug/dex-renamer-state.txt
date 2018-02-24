@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 #Wed Feb 21 21:58:30 EST 2018
+=======
+#Mon Feb 12 17:58:52 EST 2018
+>>>>>>> parent of 696ab7a... deleted a bunch of random files

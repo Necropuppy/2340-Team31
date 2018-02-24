@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Feb 13 22:34:30 EST 2018
+0.baseType=DIRECTORY
+0.base=/Users/siddudussa/Desktop/2340-Team31/ShelterMap/app/build/intermediates/transforms/dex/release/0
+0.path=classes.dex
+0.set=DEX
+count=1
