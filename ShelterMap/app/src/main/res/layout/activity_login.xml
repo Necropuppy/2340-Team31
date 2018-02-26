@@ -8,11 +8,7 @@
     tools:layout_editor_absoluteY="81dp">
 
     <EditText
-<<<<<<< HEAD
-        android:id="@+id/username"
-=======
         android:id="@+id/email"
->>>>>>> nathan
         android:layout_width="0dp"
         android:layout_height="49dp"
         android:layout_marginBottom="33dp"
@@ -68,19 +64,6 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/cancel"
         app:layout_constraintStart_toStartOf="@+id/password"
-<<<<<<< HEAD
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
-        android:text="Username"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="@+id/username"
-=======
->>>>>>> nathan
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView

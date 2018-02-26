@@ -19,27 +19,23 @@ public class WelcomeActivity extends AppCompatActivity {
         register = (Button) findViewById(R.id.register);
 
         /******************************************************************************************/
-<<<<<<< HEAD
 
         login=(Button)findViewById(R.id.login);
-=======
->>>>>>> nathan
+
         login.setOnClickListener(new View.OnClickListener() {
 
-            // https://androidsolved.wordpress.com/2015/07/01/how-to-move-from-one-activityscreen-to-another-activityscreen-in-android/
+            // https://androidsolved.wordpress.com/2015/07/01/how-to-move-from-one-activityscreen-to
+            // -another-activityscreen-in-android/
+
             @Override
             public void onClick(View view) {
-<<<<<<< HEAD
-                // TODO Auto-generated method stub
-=======
 
->>>>>>> nathan
+                // TODO Auto-generated method stub
+
                 Intent go2Login = new Intent(getApplicationContext(), LoginActivity.class);
                 startActivity(go2Login);
             }
         });
-<<<<<<< HEAD
-=======
 
         register.setOnClickListener(new View.OnClickListener() {
 
@@ -51,6 +47,5 @@ public class WelcomeActivity extends AppCompatActivity {
                 startActivity(Reg);
             }
         });
->>>>>>> nathan
     }
 }
