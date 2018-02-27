@@ -5,8 +5,10 @@ import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 public class RegisterActivity extends AppCompatActivity {
@@ -15,8 +17,12 @@ public class RegisterActivity extends AppCompatActivity {
     private EditText password;
     private EditText name;
     private EditText phone;
+    private Spinner typeSpinner;
+
     private Button cancel;
     private Button submit;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,9 +33,16 @@ public class RegisterActivity extends AppCompatActivity {
         password = (EditText) findViewById(R.id.password);
         name = (EditText) findViewById(R.id.name);
         phone = (EditText) findViewById(R.id.phone);
+        typeSpinner = (Spinner) findViewById(R.id.typeSpinner);
 
-        cancel = (Button) findViewById(R.id.cancel);
-        submit = (Button) findViewById(R.id.submit);
+        /******************************************************************************************/
+
+        /*
+          Set up the adapter to display the allowable user types in the spinner
+        */
+        ArrayAdapter<String> adapter = new ArrayAdapter(this,android.R.layout.simple_spinner_item, User.legalTypes);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        typeSpinner.setAdapter(adapter);
 
         /******************************************************************************************/
 
@@ -45,6 +58,7 @@ public class RegisterActivity extends AppCompatActivity {
             }
         });
 
+        submit = (Button) findViewById(R.id.submit);
         submit.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 boolean fail = false;
@@ -54,9 +68,13 @@ public class RegisterActivity extends AppCompatActivity {
                     }
                 }
                 if(!fail){
-                    User newUser = new User(name.getText().toString(),email.getText().toString(),password.getText().toString(),phone.getText().toString());
+                    User newUser = new User(name.getText().toString(),email.getText().toString(),password.getText().toString(),phone.getText().toString(),(String) typeSpinner.getSelectedItem().toString());
                     User.users.add(newUser);
                     Intent go2Account = new Intent(RegisterActivity.this, AccountActivity.class);
+                    go2Account.putExtra("Name", newUser.getName());
+                    go2Account.putExtra("Email",newUser.getEmail());
+                    go2Account.putExtra("Phone", newUser.getPhone());
+                    go2Account.putExtra("Type", newUser.getType());
                     startActivity(go2Account);
                 }
                 //Register fail - duplicate email

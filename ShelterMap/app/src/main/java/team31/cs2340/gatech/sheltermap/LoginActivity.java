@@ -48,21 +48,25 @@ public class LoginActivity extends AppCompatActivity {
 
         submit.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                boolean fail = true;
-                for(User u: User.users){
-                    if(u.getEmail().equals(email.getText().toString())){
-                        if(u.getPassword().equals(password.getText().toString())){
-                            //login success
-                            Intent go2Account = new Intent(LoginActivity.this, AccountActivity.class);
-                            startActivity(go2Account);
-                            fail = false;
-                        }
+            boolean fail = true;
+            for(User u: User.users){
+                if(u.getEmail().equals(email.getText().toString())){
+                    if(u.getPassword().equals(password.getText().toString())){
+                        //login success
+                        Intent go2Account = new Intent(LoginActivity.this, AccountActivity.class);
+                        go2Account.putExtra("Name", u.getName());
+                        go2Account.putExtra("Email",u.getEmail());
+                        go2Account.putExtra("Phone", u.getPhone());
+                        go2Account.putExtra("Type", u.getType());
+                        startActivity(go2Account);
+                        fail = false;
                     }
                 }
-                if(fail) {
-                    //login fail
-                    errorText.setVisibility(View.VISIBLE);
-                }
+            }
+            if(fail) {
+                //login fail
+                errorText.setVisibility(View.VISIBLE);
+            }
             }
         });
     }
