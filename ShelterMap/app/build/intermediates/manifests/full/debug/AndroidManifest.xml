@@ -26,6 +26,7 @@
         <activity android:name="team31.cs2340.gatech.sheltermap.LoginActivity" />
         <activity android:name="team31.cs2340.gatech.sheltermap.AccountActivity" />
         <activity android:name="team31.cs2340.gatech.sheltermap.RegisterActivity" />
+        <activity android:name="team31.cs2340.gatech.sheltermap.MapsActivity" />
 
         <meta-data
             android:name="android.support.VERSION"
