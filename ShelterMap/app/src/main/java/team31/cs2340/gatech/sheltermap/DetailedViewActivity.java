@@ -25,7 +25,7 @@ public class DetailedViewActivity extends AppCompatActivity{
         TextView key = (TextView) findViewById(R.id.shelter_key);
         key.setText("" + shelter.getKey());
         TextView capacity = (TextView) findViewById(R.id.shelter_cap);
-        capacity.setText(shelter.getCap());
+        capacity.setText("" + shelter.getCap());
         TextView restriction = (TextView) findViewById(R.id.shelter_restriction);
         restriction.setText("" + shelter.getRestriction());
         TextView longitude = (TextView) findViewById(R.id.shelter_longitude);
