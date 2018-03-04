@@ -4,7 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< Updated upstream
     tools:context="team31.cs2340.gatech.sheltermap.RegisterActivity">
+=======
+    android:background="@color/colorPrimary"
+    tools:context="team31.cs2340.gatech.sheltermap.RegisterActivity"
+    tools:layout_editor_absoluteY="81dp">
+>>>>>>> Stashed changes
 
     <TextView
         android:id="@+id/textView2"
