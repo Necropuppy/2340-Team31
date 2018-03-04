@@ -148,6 +148,10 @@
         "source": "/Users/siddudussa/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a50235b2f805e597e79a9746a0a50bd9/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
+        "merged": "/Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/build/intermediates/res/merged/debug/layout_activity_shelter.xml.flat",
+        "source": "/Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/res/layout/activity_shelter.xml"
+    },
+    {
         "merged": "/Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/build/intermediates/res/merged/debug/layout_design_layout_snackbar.xml.flat",
         "source": "/Users/siddudussa/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/26bf477f29477dee0648b954823c16cf/res/layout/design_layout_snackbar.xml"
     },
@@ -1152,10 +1156,6 @@
         "source": "/Users/siddudussa/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/a50235b2f805e597e79a9746a0a50bd9/res/drawable-xhdpi-v4/abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "/Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/build/intermediates/res/merged/debug/layout_activity_maps.xml.flat",
-        "source": "/Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/res/layout/activity_maps.xml"
-    },
-    {
         "merged": "/Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/build/intermediates/res/merged/debug/drawable_navigation_empty_icon.xml.flat",
         "source": "/Users/siddudussa/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/26bf477f29477dee0648b954823c16cf/res/drawable/navigation_empty_icon.xml"
     },
@@ -1418,6 +1418,10 @@
     {
         "merged": "/Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/build/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat",
         "source": "/Users/siddudussa/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/77ab02fee4b494d6d147b7a855a8e1c6/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/build/intermediates/res/merged/debug/raw_homeless_shelter_database.csv.flat",
+        "source": "/Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/res/raw/homeless_shelter_database.csv"
     },
     {
         "merged": "/Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_design_ic_visibility.png.flat",

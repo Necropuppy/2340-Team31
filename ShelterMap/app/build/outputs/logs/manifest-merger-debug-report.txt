@@ -103,10 +103,10 @@ activity#team31.cs2340.gatech.sheltermap.RegisterActivity
 ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:21:9-54
 	android:name
 		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:21:19-51
-activity#team31.cs2340.gatech.sheltermap.MapsActivity
-ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:22:9-59
+activity#team31.cs2340.gatech.sheltermap.ShelterActivity
+ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:22:9-62
 	android:name
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:22:19-47
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:22:19-50
 uses-sdk
 INJECTED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml
