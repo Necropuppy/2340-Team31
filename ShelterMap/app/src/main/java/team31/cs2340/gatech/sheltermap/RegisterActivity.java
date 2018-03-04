@@ -1,13 +1,13 @@
 package team31.cs2340.gatech.sheltermap;
 
 import android.content.Intent;
-import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
+import android.widget.Spinner;
 
 public class RegisterActivity extends AppCompatActivity {
 
@@ -17,6 +17,7 @@ public class RegisterActivity extends AppCompatActivity {
     private EditText phone;
     private Button cancel;
     private Button submit;
+    private Spinner typeSpinner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +31,18 @@ public class RegisterActivity extends AppCompatActivity {
 
         cancel = (Button) findViewById(R.id.cancel);
         submit = (Button) findViewById(R.id.submit);
+        typeSpinner = (Spinner) findViewById(R.id.typeSpinner);
+
+        /******************************************************************************************/
+
+        /*
+          Set up the adapter to display the allowable user types in the spinner
+        */
+        ArrayAdapter<String> adapter = new ArrayAdapter(this,android.R.layout.simple_spinner_item, User.legalTypes);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        typeSpinner.setAdapter(adapter);
+
+        /******************************************************************************************/
 
         /******************************************************************************************/
 

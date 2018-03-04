@@ -4,13 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< Updated upstream
-    tools:context="team31.cs2340.gatech.sheltermap.RegisterActivity">
-=======
     android:background="@color/colorPrimary"
     tools:context="team31.cs2340.gatech.sheltermap.RegisterActivity"
     tools:layout_editor_absoluteY="81dp">
->>>>>>> Stashed changes
 
     <TextView
         android:id="@+id/textView2"
@@ -102,4 +98,15 @@
         android:text="Cancel"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password" />
+
+    <Spinner
+        android:id="@+id/typeSpinner"
+        android:layout_width="216dp"
+        android:layout_height="26dp"
+        android:layout_marginBottom="68dp"
+        android:layout_marginTop="66dp"
+        app:layout_constraintBottom_toTopOf="@+id/cancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/password" />
 </android.support.constraint.ConstraintLayout>

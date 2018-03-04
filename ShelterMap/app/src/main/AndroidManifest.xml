@@ -19,11 +19,7 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".AccountActivity" />
         <activity android:name=".RegisterActivity"></activity>
-<<<<<<< Updated upstream
-=======
         <activity android:name=".DetailedViewActivity"></activity>
-
->>>>>>> Stashed changes
     </application>
 
 </manifest>

@@ -5,23 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< Updated upstream
-    tools:context="team31.cs2340.gatech.sheltermap.AccountActivity">
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="125dp"
-        android:text="Hello User123"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-=======
     android:orientation="vertical"
     tools:context="team31.cs2340.gatech.sheltermap.AccountActivity">
->>>>>>> Stashed changes
 
     <Button
         android:id="@+id/logout"
@@ -32,9 +17,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-<<<<<<< Updated upstream
-</android.support.constraint.ConstraintLayout>
-=======
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/shelter_list"
@@ -107,4 +89,3 @@
             app:layout_constraintEnd_toEndOf="parent" />
     </android.support.constraint.ConstraintLayout>
     -->
->>>>>>> Stashed changes
