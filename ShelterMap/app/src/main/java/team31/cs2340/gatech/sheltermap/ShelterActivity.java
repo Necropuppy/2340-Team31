@@ -2,71 +2,49 @@ package team31.cs2340.gatech.sheltermap;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.nio.charset.Charset;
-import java.util.ArrayList;
-import java.util.List;
+import android.widget.TextView;
 
 public class ShelterActivity extends AppCompatActivity {
-
-    ListView list;
-
-    private List<Shelter> shelters = new ArrayList<>();
-
-    ArrayAdapter<Shelter> adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shelter);
 
-        readShelterData();
+        String key = getIntent().getStringExtra("Key");
+        TextView insertKey = (TextView) findViewById(R.id.insertKey);
+        insertKey.setText(key);
 
-        list = (ListView) findViewById(R.id.shelterList);
-        adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, shelters);
-        list.setAdapter(adapter);
-    }
+        String name = getIntent().getStringExtra("Name");
+        TextView insertName = (TextView) findViewById(R.id.insertName);
+        insertName.setText(name);
 
-    private void readShelterData() {
-        InputStream is = getResources().openRawResource(R.raw.homeless_shelter_database);
-        BufferedReader reader = new BufferedReader(new InputStreamReader(is, Charset.forName("UTF-8")));
+        String capacity = getIntent().getStringExtra("Capacity");
+        TextView insertCapacity = (TextView) findViewById(R.id.insertCapacity);
+        insertCapacity.setText(capacity);
 
-        String line = "";
+        String restrictions = getIntent().getStringExtra("Restrictions");
+        TextView insertRestrictions = (TextView) findViewById(R.id.insertRestrictions);
+        insertRestrictions.setText(restrictions);
 
-        try {
-            line = reader.readLine();
+        String longitude = getIntent().getStringExtra("Longitude");
+        TextView insertLongitude = (TextView) findViewById(R.id.insertLongitude);
+        insertLongitude.setText(longitude);
 
-            while ((line = reader.readLine()) != null) {
-                // Split by ','
-                String[] tokens = line.split(",");
+        String latitude = getIntent().getStringExtra("Latitude");
+        TextView insertLatitude = (TextView) findViewById(R.id.insertLatitude);
+        insertLatitude.setText(latitude);
 
-                // read data
-                Shelter s = new Shelter();
+        String address = getIntent().getStringExtra("Address");
+        TextView insertAddress = (TextView) findViewById(R.id.insertAddress);
+        insertAddress.setText(address);
 
-                s.setUniqueKey(Integer.parseInt(tokens[0]));
-                s.setName(tokens[1]);
-                s.setCapacity(tokens[2]);
-                s.setRestrictions(tokens[3]);
-                s.setLongitude(Double.parseDouble(tokens[4]));
-                s.setLatitude(Double.parseDouble(tokens[5]));
-                s.setAddress(tokens[6]);
-                s.setNotes(tokens[7]);
-                s.setPhone(tokens[8]);
+        String notes = getIntent().getStringExtra("Notes");
+        TextView insertNotes = (TextView) findViewById(R.id.insertNotes);
+        insertNotes.setText(notes);
 
-                shelters.add(s);
-
-                Log.d("MyActivity", "Just created: " + s);
-            }
-        } catch (IOException e) {
-            Log.wtf("MyActivity", "Error reading data file on line " + line, e);
-            e.printStackTrace();
-        }
+        String phone = getIntent().getStringExtra("Phone");
+        TextView insertPhone = (TextView) findViewById(R.id.insertPhone);
+        insertPhone.setText(phone);
     }
 }

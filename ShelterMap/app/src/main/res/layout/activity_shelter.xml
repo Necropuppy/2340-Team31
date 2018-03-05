@@ -4,18 +4,168 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="team31.cs2340.gatech.sheltermap.ShelterActivity">
+    tools:context="team31.cs2340.gatech.sheltermap.ShelterActivity"
+    tools:layout_editor_absoluteY="81dp">
 
-    <ListView
-        android:id="@+id/shelterList"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+    <TextView
+        android:id="@+id/insertCapacity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:text="insertCapacity"
+        app:layout_constraintStart_toEndOf="@+id/capacity"
+        app:layout_constraintTop_toBottomOf="@+id/insertName" />
+
+    <TextView
+        android:id="@+id/insertRestrictions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="insertRestrictions"
+        app:layout_constraintStart_toEndOf="@+id/restrictions"
+        app:layout_constraintTop_toBottomOf="@+id/insertCapacity" />
+
+    <TextView
+        android:id="@+id/insertLongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="22dp"
+        android:text="insertLongitude"
+        app:layout_constraintStart_toStartOf="@+id/insertLatitude"
+        app:layout_constraintTop_toBottomOf="@+id/restrictions" />
+
+    <TextView
+        android:id="@+id/insertLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="insertLatitude"
+        app:layout_constraintStart_toEndOf="@+id/latitude"
+        app:layout_constraintTop_toBottomOf="@+id/longitude" />
+
+    <TextView
+        android:id="@+id/insertAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="insertAddress"
+        app:layout_constraintStart_toEndOf="@+id/address"
+        app:layout_constraintTop_toBottomOf="@+id/latitude" />
+
+    <TextView
+        android:id="@+id/insertNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="insertNotes"
+        app:layout_constraintStart_toEndOf="@+id/notes"
+        app:layout_constraintTop_toBottomOf="@+id/insertAddress" />
+
+    <TextView
+        android:id="@+id/insertPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="insertPhone"
+        app:layout_constraintStart_toEndOf="@+id/phone"
+        app:layout_constraintTop_toBottomOf="@+id/insertNotes" />
+
+    <TextView
+        android:id="@+id/insertKey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="key"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView6"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" - "
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/insertName"
+        app:layout_constraintStart_toEndOf="@+id/insertKey" />
+
+    <TextView
+        android:id="@+id/insertName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="name"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="17dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="16dp" />
+
+    <TextView
+        android:id="@+id/capacity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capacity: "
+        app:layout_constraintBaseline_toBaselineOf="@+id/insertCapacity"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+    <TextView
+        android:id="@+id/restrictions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restrictions: "
+        app:layout_constraintBaseline_toBaselineOf="@+id/insertRestrictions"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+    <TextView
+        android:id="@+id/longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Longitude: "
+        app:layout_constraintBaseline_toBaselineOf="@+id/insertLongitude"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+    <TextView
+        android:id="@+id/latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latitude: "
+        app:layout_constraintBaseline_toBaselineOf="@+id/insertLatitude"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: "
+        app:layout_constraintBaseline_toBaselineOf="@+id/insertAddress"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+    <TextView
+        android:id="@+id/notes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Special Notes: "
+        app:layout_constraintBaseline_toBaselineOf="@+id/insertNotes"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number: "
+        app:layout_constraintBaseline_toBaselineOf="@+id/insertPhone"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
 </android.support.constraint.ConstraintLayout>
