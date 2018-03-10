@@ -44,7 +44,7 @@ public class AccountActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // TODO Auto-generated method stub
-                Intent go2Login = new Intent(getApplicationContext(), LoginActivity.class);
+                Intent go2Login = new Intent(getApplicationContext(), WelcomeActivity.class);
                 startActivity(go2Login);
             }
         });
