@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">ShelterMap</string>
+    <string name="app_title">Shelter Mapp</string>
+    <string name="login">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="phrase">Easy Shelter Finding</string>
+    <string name="already_account">Already have an account?</string>
+    <string name="terms_of_service">By using Shelter Mapp, you agree to our \n Terms of Use and Privacy Policy.</string>
+    <string name="title_activity_account">Account</string>
+
+    <string name="register">Registration</string>
+    <string name="email">Email Address</string>
+    <string name="phone">Phone Number</string>
+    <string name="name">Full Name</string>
+    <string name="password">Password</string>
+
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="logout">Log Out</string>
 </resources>
