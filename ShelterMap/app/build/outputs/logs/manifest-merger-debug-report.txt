@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-25:12
+ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-37:12
 MERGED from [com.android.support:design:26.1.0] /Users/benpusey/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e9feb9a2cea60120bec30267c1e026bf/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/benpusey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cf19b272dc5899df2604a29063e70bd3/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/benpusey/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/ddeb474fc94be15120b3e348aa985cab/AndroidManifest.xml:2:1-11:12
@@ -18,25 +18,25 @@ MERGED from [com.android.support:support-core-utils:26.1.0] /Users/benpusey/.gra
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/benpusey/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/7f91d6b6e90c2d348d559d21eb4985cd/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] /Users/benpusey/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/309d9be74e6eaf5406ebe34c7b029f35/AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/benpusey/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/16b24b5f3ed7a0d7ad60ea8a5cee9106/AndroidManifest.xml:17:1-30:12
-INJECTED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-37:12
 	package
 		ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:3:5-46
 		INJECTED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml
-		ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-25:12
+		ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-37:12
 		INJECTED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml
-		ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-25:12
+		ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-37:12
 		INJECTED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:5:5-23:19
+ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:5:5-35:19
 MERGED from [com.android.support:design:26.1.0] /Users/benpusey/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e9feb9a2cea60120bec30267c1e026bf/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] /Users/benpusey/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e9feb9a2cea60120bec30267c1e026bf/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/benpusey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cf19b272dc5899df2604a29063e70bd3/AndroidManifest.xml:25:5-29:19
@@ -100,13 +100,37 @@ ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/Android
 	android:name
 		ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:20:19-50
 activity#team31.cs2340.gatech.sheltermap.RegisterActivity
-ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:21:9-63
+ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:21:9-54
 	android:name
 		ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:21:19-51
 activity#team31.cs2340.gatech.sheltermap.DetailedViewActivity
-ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:22:9-67
+ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:22:9-58
 	android:name
 		ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:22:19-55
+activity#team31.cs2340.gatech.sheltermap.SearchActivity
+ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:23:9-26:59
+	android:label
+		ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:25:13-58
+	android:theme
+		ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:26:13-56
+	android:name
+		ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:24:13-43
+activity#team31.cs2340.gatech.sheltermap.ResultActivity
+ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:27:9-30:59
+	android:label
+		ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:29:13-58
+	android:theme
+		ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:30:13-56
+	android:name
+		ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:28:13-43
+activity#team31.cs2340.gatech.sheltermap.SearchDetailedView
+ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:31:9-34:68
+	android:label
+		ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:33:13-72
+	android:theme
+		ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:34:13-56
+	android:name
+		ADDED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:32:13-47
 uses-sdk
 INJECTED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/benpusey/Documents/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml

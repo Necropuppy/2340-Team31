@@ -18,8 +18,20 @@
         </activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".AccountActivity" />
-        <activity android:name=".RegisterActivity"></activity>
-        <activity android:name=".DetailedViewActivity"></activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".DetailedViewActivity" />
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/title_activity_search"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ResultActivity"
+            android:label="@string/title_activity_result"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SearchDetailedView"
+            android:label="@string/title_activity_search_detailed_view"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

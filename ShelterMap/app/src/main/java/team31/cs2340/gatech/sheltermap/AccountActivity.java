@@ -25,6 +25,7 @@ public class AccountActivity extends AppCompatActivity {
     private RecyclerView.LayoutManager mLayoutManager;
 
     private Button logout;
+    private Button search;
 
     private String[] shelterNames = new String[13];
 
@@ -35,6 +36,7 @@ public class AccountActivity extends AppCompatActivity {
         setContentView(R.layout.activity_account);
 
         logout = (Button) findViewById(R.id.logout);
+        search = (Button) findViewById(R.id.search);
 
         /******************************************************************************************/
 
@@ -46,6 +48,15 @@ public class AccountActivity extends AppCompatActivity {
                 // TODO Auto-generated method stub
                 Intent go2Login = new Intent(getApplicationContext(), WelcomeActivity.class);
                 startActivity(go2Login);
+            }
+        });
+        search.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                // TODO Auto-generated method stub
+                Intent go2Search = new Intent(getApplicationContext(), SearchActivity.class);
+                startActivity(go2Search);
             }
         });
 

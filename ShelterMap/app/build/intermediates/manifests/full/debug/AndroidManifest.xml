@@ -28,6 +28,18 @@
         <activity android:name="team31.cs2340.gatech.sheltermap.AccountActivity" />
         <activity android:name="team31.cs2340.gatech.sheltermap.RegisterActivity" />
         <activity android:name="team31.cs2340.gatech.sheltermap.DetailedViewActivity" />
+        <activity
+            android:name="team31.cs2340.gatech.sheltermap.SearchActivity"
+            android:label="@string/title_activity_search"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="team31.cs2340.gatech.sheltermap.ResultActivity"
+            android:label="@string/title_activity_result"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="team31.cs2340.gatech.sheltermap.SearchDetailedView"
+            android:label="@string/title_activity_search_detailed_view"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <meta-data
             android:name="android.support.VERSION"
