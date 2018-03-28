@@ -61,15 +61,21 @@ public class DetailedViewActivity extends AppCompatActivity{
             @Override
             public void onClick(View view) {
                 String value= famnum.getText().toString();
-                int i=Integer.parseInt(value);
+                int i;
+                try {
+                    i=Integer.parseInt(value);
+                } catch (Exception e) {
+                    i = 0;
+                }
 
                 if(i > 0){
-                    if(User.Reserved == 0){
+                    if(User.currentUser.getUserReserved() == 0){
                         if((shelter.getCap()-shelter.getPop()) >= i){
-                            User.Reserved = 1;
-                            User.ResNum = i;
+                            User.currentUser.setUserReserved(1);
+                            User.currentUser.setUserResNum(i);
                             shelter.addPop(i);
-                            User.ShelterId = shelter.getKey();
+                            User.currentUser.setUserShelterId(shelter.getKey());
+                            User.saveUsers(view.getContext());
                             capacity.setText("Capacity: " + shelter.getPop() + "/" + shelter.getCap());
                         }
                     }
@@ -86,11 +92,13 @@ public class DetailedViewActivity extends AppCompatActivity{
             @Override
             public void onClick(View view) {
 
-               if(User.Reserved == 1){
-                   if(User.ShelterId == shelter.getKey()){
-                       User.Reserved = 0;
-                       User.ShelterId = -1;
-                       shelter.subPop(User.ResNum);
+               if(User.currentUser.getUserReserved() == 1){
+                   if(User.currentUser.getUserShelterId() == shelter.getKey()){
+                       User.currentUser.setUserReserved(0);
+                       User.currentUser.setUserShelterId(-1);
+                       User.saveUsers(view.getContext());
+                       shelter.subPop(User.currentUser.getUserResNum());
+                       User.currentUser.setUserResNum(0);
                        capacity.setText("Capacity: " + shelter.getPop() + "/" + shelter.getCap());
                    }
                }

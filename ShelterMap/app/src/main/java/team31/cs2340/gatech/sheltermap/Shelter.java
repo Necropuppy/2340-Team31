@@ -10,6 +10,10 @@ public class Shelter {
 
     public static ArrayList<Shelter> shelters = new ArrayList<>();
 
+    public static void updateBedCounts() {
+
+    }
+
 /*
     private enum gender {
         MALE,
@@ -28,6 +32,11 @@ public class Shelter {
         this.latitude = latitude;
         this.address = address;
         pop = 0;
+        for (User u:User.users) {
+            if(u.getUserShelterId() == getKey()) {
+                addPop(u.getUserResNum());
+            }
+        }
 
     }
 

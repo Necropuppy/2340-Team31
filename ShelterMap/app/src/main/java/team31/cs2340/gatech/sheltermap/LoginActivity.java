@@ -52,6 +52,7 @@ public class LoginActivity extends AppCompatActivity {
                     if(u.getEmail().equals(email.getText().toString())){
                         if(u.getPassword().equals(password.getText().toString())){
                             //login success
+                            User.currentUser = u;
                             Intent go2Account = new Intent(LoginActivity.this, AccountActivity.class);
                             startActivity(go2Account);
                             fail = false;

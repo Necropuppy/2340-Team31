@@ -8,6 +8,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 public class RegisterActivity extends AppCompatActivity {
 
@@ -64,11 +65,15 @@ public class RegisterActivity extends AppCompatActivity {
                 for(User u: User.users){
                     if(u.getEmail().equals(email.getText().toString())){
                         fail = true;
+                        Toast.makeText(view.getContext(), "Email address already in use",
+                                Toast.LENGTH_LONG).show();
                     }
                 }
                 if(!fail){
                     User newUser = new User(name.getText().toString(),email.getText().toString(),password.getText().toString(),phone.getText().toString());
-                    User.users.add(newUser);
+                    //User.users.add(newUser);
+                    User.currentUser = newUser;
+                    User.saveUsers(view.getContext());
                     Intent go2Account = new Intent(RegisterActivity.this, AccountActivity.class);
                     startActivity(go2Account);
                 }

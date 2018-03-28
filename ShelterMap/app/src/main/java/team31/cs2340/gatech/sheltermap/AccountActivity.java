@@ -67,6 +67,7 @@ public class AccountActivity extends AppCompatActivity {
         //userName.setText(name);
         Log.d(AccountActivity.TAG, "Before file read");
         readSDFile();
+        //Shelter.updateBedCounts();
         Log.d(AccountActivity.TAG, "After file read");
         mRecyclerView = (RecyclerView) findViewById(R.id.shelter_list);
         // use this setting to improve performance if you know that changes
