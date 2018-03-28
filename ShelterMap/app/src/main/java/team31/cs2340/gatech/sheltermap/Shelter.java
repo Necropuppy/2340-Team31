@@ -27,12 +27,15 @@ public class Shelter {
         this.longitude = longitude;
         this.latitude = latitude;
         this.address = address;
+        pop = 0;
+
     }
 
     //variables
     private String name;
     private int key;
     private int capacity;
+    private int pop;
     //private gender genderType;
     private String restriction;
     private double longitude;
@@ -43,6 +46,7 @@ public class Shelter {
     public String getName(){ return name; }
     public int getKey() { return key; }
     public int getCap() { return capacity; }
+    public int getPop() {return pop;}
     //public gender getGender() { return genderType; }
     public String getRestriction(){ return restriction; }
     public double getLongitude() { return longitude; }
@@ -53,6 +57,8 @@ public class Shelter {
     public void setName(String name){ this.name = name; }
     public void setKey(int key) { this.key = key; }
     public void setCap(int cap) { capacity = cap; }
+    public void addPop(int i){pop+=i;}
+    public void subPop(int i){pop-=i;}
     //public void setGender(gender gen) { genderType = gen; }
     public void setGender(String restriction){ this.restriction = restriction; }
     public void setLongitude(double longitude) { this.longitude = longitude; }

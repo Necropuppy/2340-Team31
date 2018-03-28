@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/benpusey/Documents/2340-Team31/ShelterMap/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "C:\\Users\\Nathan\\Desktop\\cs2340 Project\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/benpusey/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/309d9be74e6eaf5406ebe34c7b029f35/res/values-v16/values-v16.xml",
+                    "source": "C:\\Users\\Nathan\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\6dd8b000dea13e74b804af31f20d468d\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/benpusey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cf19b272dc5899df2604a29063e70bd3/res/values-v16/values-v16.xml",
+                    "source": "C:\\Users\\Nathan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1bbc04cff8b0bd9b6943e18fdabbb539\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

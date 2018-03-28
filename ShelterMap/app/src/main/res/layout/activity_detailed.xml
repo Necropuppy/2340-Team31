@@ -78,4 +78,34 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/shelter_longitude"
         app:layout_constraintVertical_bias="0.348" />
+
+    <Button
+        android:id="@+id/checkin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Check-In"
+        app:layout_constraintTop_toBottomOf="@+id/shelter_address"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/familyNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Number of People"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/checkin"
+        app:layout_constraintTop_toBottomOf="@+id/shelter_address" />
+
+    <Button
+        android:id="@+id/checkout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Check-Out"
+        app:layout_constraintTop_toBottomOf="@+id/checkin"
+        tools:layout_editor_absoluteX="16dp" />
 </android.support.constraint.ConstraintLayout>

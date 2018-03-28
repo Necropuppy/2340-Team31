@@ -21,20 +21,20 @@ public class SearchDetailedView extends AppCompatActivity {
         Shelter shelter = SearchActivity.getFiltered().get(position);
         Log.d(AccountActivity.TAG, "Successful extra");
         TextView name = (TextView) findViewById(R.id.shelter_name);
-        name.setText(shelter.getName());
+        name.setText("Shelter Name: " + shelter.getName());
         Log.d(AccountActivity.TAG, "Successful name");
         TextView key = (TextView) findViewById(R.id.shelter_key);
-        key.setText("" + shelter.getKey());
+        key.setText("Shelter ID: " + shelter.getKey());
         TextView capacity = (TextView) findViewById(R.id.shelter_cap);
-        capacity.setText("" + shelter.getCap());
+        capacity.setText("Capacity: " + shelter.getPop() + "/" + shelter.getCap());
         TextView restriction = (TextView) findViewById(R.id.shelter_restriction);
         restriction.setText("" + shelter.getRestriction());
         TextView longitude = (TextView) findViewById(R.id.shelter_longitude);
-        longitude.setText("" + shelter.getLongitude());
+        longitude.setText("Longitude: " + shelter.getLongitude());
         TextView latitude = (TextView) findViewById(R.id.shelter_latitude);
-        latitude.setText("" + shelter.getLatitude());
+        latitude.setText("Latitude: " + shelter.getLatitude());
         TextView address = (TextView) findViewById(R.id.shelter_address);
-        address.setText(shelter.getAddress());
+        address.setText("Address: " + shelter.getAddress());
     }
 
 }

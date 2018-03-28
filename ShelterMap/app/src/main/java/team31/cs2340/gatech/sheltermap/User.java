@@ -11,6 +11,9 @@ import java.util.List;
 public class User {
 
     public static ArrayList<User> users = new ArrayList<>();
+    public static int Reserved = 0;
+    public static int ResNum = 0;
+    public static int ShelterId = -1;
 
     public static final List<String> legalTypes = Arrays.asList("Admin", "Shelter Worker", "Shelter Seeker");
 
@@ -18,6 +21,7 @@ public class User {
     private String email;
     private String password;
     private String phone;
+
 
     public User(String n, String e, String p, String ph){
         name = n;
