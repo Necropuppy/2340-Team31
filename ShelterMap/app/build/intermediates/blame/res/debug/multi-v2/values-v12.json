@@ -1,26 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Nathan\\Desktop\\cs2340 Project\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v12\\values-v12.xml",
+            "outputFile": "/Users/benpusey/Downloads/2340-Team31-ben-pusey/ShelterMap/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v12/values-v12.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Nathan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1bbc04cff8b0bd9b6943e18fdabbb539\\res\\values-v12\\values-v12.xml",
-                    "from": {
-                        "startLines": "2,5,8,9",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,279,479,598",
-                        "endLines": "4,7,8,9",
-                        "endColumns": "12,12,118,94",
-                        "endOffsets": "274,474,593,688"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Marcus\\Music\\2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v12\\values-v12.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Marcus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\a89263d8eaa52f1e18be63136a9535bc\\res\\values-v12\\values-v12.xml",
+                    "source": "/Users/benpusey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cf19b272dc5899df2604a29063e70bd3/res/values-v12/values-v12.xml",
                     "from": {
                         "startLines": "2,5,8,9",
                         "startColumns": "4,4,4,4",

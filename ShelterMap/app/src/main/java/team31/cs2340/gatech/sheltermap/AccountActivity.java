@@ -18,6 +18,8 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 
+
+
 public class AccountActivity extends AppCompatActivity {
     public static String TAG = "MY_APP";
     private RecyclerView mRecyclerView;
@@ -26,6 +28,7 @@ public class AccountActivity extends AppCompatActivity {
 
     private Button logout;
     private Button search;
+    private Button map;
 
     private String[] shelterNames = new String[13];
 
@@ -37,6 +40,7 @@ public class AccountActivity extends AppCompatActivity {
 
         logout = (Button) findViewById(R.id.logout);
         search = (Button) findViewById(R.id.search);
+        map = (Button) findViewById(R.id.map);
 
         /******************************************************************************************/
 
@@ -57,6 +61,14 @@ public class AccountActivity extends AppCompatActivity {
                 // TODO Auto-generated method stub
                 Intent go2Search = new Intent(getApplicationContext(), SearchActivity.class);
                 startActivity(go2Search);
+            }
+        });
+        map.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent go2Map = new Intent(getApplicationContext(), MapActivity.class);
+                startActivity(go2Map);
             }
         });
 

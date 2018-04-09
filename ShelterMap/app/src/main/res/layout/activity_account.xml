@@ -31,6 +31,15 @@
         android:textStyle="bold"
         android:text="Search" />
 
+    <Button
+        android:id="@+id/map"
+        android:background="@drawable/button_border"
+        android:textColor="@color/text_icon"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Map" />
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/shelter_list"
         android:layout_width="match_parent"
