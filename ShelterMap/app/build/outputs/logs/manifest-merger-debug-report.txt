@@ -5,6 +5,7 @@ INJECTED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georg
 INJECTED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-43:12
 INJECTED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-43:12
 MERGED from [com.google.android.gms:play-services:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-9.8.0.aar/dad2d67ceb263d90c598a3390dd8ac14/AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/1d30bd02c06389919afa1eba6c280aa1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:design:26.1.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/8407cde9389c4aea45b84aa47980c34a/AndroidManifest.xml:17:1-31:12
 MERGED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.8.0.aar/9ab6d743669ffcf4764dd2e13c45e99d/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-cast:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-cast-9.8.0.aar/84ff859e4e3efbbb5678ccc168e09375/AndroidManifest.xml:16:1-19:12
@@ -287,6 +288,8 @@ INJECTED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georg
 INJECTED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml
 MERGED from [com.google.android.gms:play-services:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-9.8.0.aar/dad2d67ceb263d90c598a3390dd8ac14/AndroidManifest.xml:4:5-42
 MERGED from [com.google.android.gms:play-services:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-9.8.0.aar/dad2d67ceb263d90c598a3390dd8ac14/AndroidManifest.xml:4:5-42
+MERGED from [com.android.support:multidex:1.0.2] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/1d30bd02c06389919afa1eba6c280aa1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/1d30bd02c06389919afa1eba6c280aa1/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:design:26.1.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/8407cde9389c4aea45b84aa47980c34a/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:design:26.1.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/8407cde9389c4aea45b84aa47980c34a/AndroidManifest.xml:21:5-23:62
 MERGED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.8.0.aar/9ab6d743669ffcf4764dd2e13c45e99d/AndroidManifest.xml:3:5-42
