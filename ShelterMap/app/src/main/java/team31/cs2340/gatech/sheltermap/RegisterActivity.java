@@ -62,6 +62,9 @@ public class RegisterActivity extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 boolean fail = false;
+                if(email.getText() == null || email.getText().toString().equals("") ) {
+                    fail = true;
+                }
                 for(User u: User.users){
                     if(u.getEmail().equals(email.getText().toString())){
                         fail = true;
