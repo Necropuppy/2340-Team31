@@ -20,7 +20,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
  */
 public class MapActivity extends AppCompatActivity implements OnMapReadyCallback{
 
-    private Button update;
+
     private Spinner filter;
     private static final String[] options = {"No Filter", "Male", "Female", "Children",
             "Young Adults", "Families"};
@@ -30,6 +30,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
+        Button update;
         update = findViewById(R.id.update);
         filter = findViewById(R.id.filter);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,

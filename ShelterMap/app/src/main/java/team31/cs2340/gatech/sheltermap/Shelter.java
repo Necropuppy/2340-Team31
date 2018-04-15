@@ -11,7 +11,7 @@ import java.util.ArrayList;
  */
 public class Shelter extends RuntimeException{
 
-    public static ArrayList<Shelter> shelters = new ArrayList<>();
+    static ArrayList<Shelter> shelters = new ArrayList<>();
 
 /*
     private enum gender {
@@ -43,8 +43,8 @@ public class Shelter extends RuntimeException{
         pop = 0;
         if (User.users.size() > 0) {
             for (User u : User.users) {
-                if (u.getUserShelterId() == getKey()) {
-                    addPop(u.getUserResNum());
+                if (u.getUserShelterId() == this.key) {
+                    pop += u.getUserResNum();//addPop(u.getUserResNum());
                     if (pop > this.capacity) {
                         throw new RuntimeException("Population greater than capacity");
                     }

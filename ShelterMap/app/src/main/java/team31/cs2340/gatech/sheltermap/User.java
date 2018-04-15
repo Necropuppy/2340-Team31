@@ -9,6 +9,7 @@ import java.io.FileOutputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.List;
 
 /*
@@ -20,11 +21,11 @@ import java.util.List;
  */
 public class User {
 
-    public static ArrayList<User> users = new ArrayList<>();
+    static Collection<User> users = new ArrayList<>();
     //public static int Reserved = 0;
     //public static int ResNum = 0;
     //public static int ShelterId = -1;
-    public static User currentUser;
+    static User currentUser;
 
     public static final List<String> legalTypes = Arrays.asList("Admin", "Shelter Worker",
             "Shelter Seeker");

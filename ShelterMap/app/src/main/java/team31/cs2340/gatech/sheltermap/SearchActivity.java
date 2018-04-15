@@ -10,6 +10,7 @@ import android.widget.EditText;
 import android.widget.Spinner;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Class for SearchActivity (the search screen logic after clicking search from main screen)
@@ -18,17 +19,17 @@ public class SearchActivity extends AppCompatActivity {
     private Spinner gender;
     private Spinner age;
     private EditText shelterName;
-    private Button search;
+
     private static final String[] genders = {"All", "Male", "Female"};
     private static final String[] ages = {"All", "Children", "Young Adults", "Families"};
-    private static ArrayList<Shelter> filtered;
+    private static List<Shelter> filtered;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
 
-
+        Button search;
         gender = findViewById(R.id.GenderSpinner);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_spinner_item, genders);
@@ -45,7 +46,6 @@ public class SearchActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                // TODO Auto-generated method stub
                 Intent go2Results = new Intent(getApplicationContext(), ResultActivity.class);
                 filtered = (ArrayList<Shelter>) Shelter.shelters.clone();
                 if(gender.getSelectedItem() == "Female") {
@@ -114,7 +114,7 @@ public class SearchActivity extends AppCompatActivity {
      * Filters the shelter array list
      * @return array list of shelters filtered
      */
-    public static ArrayList<Shelter> getFiltered() {
+    public static List<Shelter> getFiltered() {
         return filtered;
     }
 

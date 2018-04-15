@@ -19,14 +19,14 @@ public class RegisterActivity extends AppCompatActivity {
     private EditText password;
     private EditText name;
     private EditText phone;
-    private Button cancel;
-    private Button submit;
-    private Spinner typeSpinner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+        Button cancel;
+        Button submit;
+        Spinner typeSpinner;
 
         email = (EditText) findViewById(R.id.email);
         password = (EditText) findViewById(R.id.password);
@@ -58,6 +58,7 @@ public class RegisterActivity extends AppCompatActivity {
         });
 
         submit.setOnClickListener(new View.OnClickListener() {
+            @Override
             public void onClick(View view) {
                 boolean fail = false;
                 if(email.getText() == null || email.getText().toString().equals("") ) {

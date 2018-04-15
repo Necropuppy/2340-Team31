@@ -16,12 +16,12 @@ public class LoginActivity extends AppCompatActivity {
 
     private EditText email;
     private EditText password;
-    private Button cancel;
-    private Button submit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Button cancel;
+        Button submit;
         setContentView(R.layout.activity_login);
 
         email = (EditText) findViewById(R.id.email);
@@ -39,13 +39,13 @@ public class LoginActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                // TODO Auto-generated method stub
                 Intent go2Welcome = new Intent(getApplicationContext(), WelcomeActivity.class);
                 startActivity(go2Welcome);
             }
         });
 
         submit.setOnClickListener(new View.OnClickListener() {
+            @Override
             public void onClick(View view) {
                 boolean fail = true;
                 for(User u: User.users){
