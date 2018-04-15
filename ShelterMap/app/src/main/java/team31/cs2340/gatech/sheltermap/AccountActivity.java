@@ -19,7 +19,6 @@ import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 
 
-
 public class AccountActivity extends AppCompatActivity {
     public static String TAG = "MY_APP";
     private RecyclerView mRecyclerView;
@@ -78,7 +77,8 @@ public class AccountActivity extends AppCompatActivity {
         //TextView userName = (TextView) findViewById(R.id.insertUserName);
         //userName.setText(name);
         Log.d(AccountActivity.TAG, "Before file read");
-        readSDFile();
+        InputStream is = getResources().openRawResource(R.raw.homeless);
+        readSDFile(is);
         //Shelter.updateBedCounts();
         Log.d(AccountActivity.TAG, "After file read");
         mRecyclerView = (RecyclerView) findViewById(R.id.shelter_list);
@@ -93,12 +93,17 @@ public class AccountActivity extends AppCompatActivity {
         mRecyclerView.setAdapter(mAdapter);
     }
 
-    private void readSDFile() {
+    /**
+     * Reads homeless.csv document and populates the shelter arraylist
+     *
+     * @param is InputStream containing the homeless.csv file
+     */
+    public void readSDFile(InputStream is) {
         //SimpleModel model = SimpleModel.INSTANCE;
 
         try {
             //Open a stream on the raw file
-            InputStream is = getResources().openRawResource(R.raw.homeless);
+                //InputStream is = getResources().openRawResource(R.raw.homeless);
             //From here we probably should call a model method and pass the InputStream
             //Wrap it in a BufferedReader so that we get the readLine() method
             BufferedReader br = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8));

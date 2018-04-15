@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * Created by Elmer on 3/3/2018.
  */
 
-public class Shelter {
+public class Shelter extends RuntimeException{
 
     public static ArrayList<Shelter> shelters = new ArrayList<>();
 
@@ -32,12 +32,16 @@ public class Shelter {
         this.latitude = latitude;
         this.address = address;
         pop = 0;
-        for (User u:User.users) {
-            if(u.getUserShelterId() == getKey()) {
-                addPop(u.getUserResNum());
+        if (User.users.size() > 0) {
+            for (User u : User.users) {
+                if (u.getUserShelterId() == getKey()) {
+                    addPop(u.getUserResNum());
+                    if (pop > this.capacity) {
+                        throw new RuntimeException("Population greater than capacity");
+                    }
+                }
             }
         }
-
     }
 
     //variables
