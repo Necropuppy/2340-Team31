@@ -1,25 +1,27 @@
 package team31.cs2340.gatech.sheltermap;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Spinner;
 import android.widget.TextView;
 
-/**
+/*
  * Created by Elmer on 3/3/2018.
  */
 
+/**
+ * Class for the DetailedViewActivity (the view logic after clicking on shelter in main screen)
+ */
 public class DetailedViewActivity extends AppCompatActivity{
 
     private Button checkin;
     private Button checkout;
     private EditText famnum;
 
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
 
 
@@ -76,7 +78,8 @@ public class DetailedViewActivity extends AppCompatActivity{
                             shelter.addPop(i);
                             User.currentUser.setUserShelterId(shelter.getKey());
                             User.saveUsers(view.getContext());
-                            capacity.setText("Capacity: " + shelter.getPop() + "/" + shelter.getCap());
+                            capacity.setText("Capacity: " + shelter.getPop() + "/"
+                                    + shelter.getCap());
                         }
                     }
 

@@ -18,7 +18,9 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 
-
+/**
+ * Class for the AccountActivity (the main screen logic after login)
+ */
 public class AccountActivity extends AppCompatActivity {
     public static String TAG = "MY_APP";
     private RecyclerView mRecyclerView;
@@ -40,8 +42,6 @@ public class AccountActivity extends AppCompatActivity {
         logout = (Button) findViewById(R.id.logout);
         search = (Button) findViewById(R.id.search);
         map = (Button) findViewById(R.id.map);
-
-        /******************************************************************************************/
 
         logout = (Button) findViewById(R.id.logout);
         logout.setOnClickListener(new View.OnClickListener() {
@@ -70,8 +70,6 @@ public class AccountActivity extends AppCompatActivity {
                 startActivity(go2Map);
             }
         });
-
-        /******************************************************************************************/
 
         //String name = getIntent().getStringExtra("Name");
         //TextView userName = (TextView) findViewById(R.id.insertUserName);
@@ -106,7 +104,8 @@ public class AccountActivity extends AppCompatActivity {
                 //InputStream is = getResources().openRawResource(R.raw.homeless);
             //From here we probably should call a model method and pass the InputStream
             //Wrap it in a BufferedReader so that we get the readLine() method
-            BufferedReader br = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8));
+            BufferedReader br = new BufferedReader(new InputStreamReader(is,
+                    StandardCharsets.UTF_8));
 
             String line;
             int cnt = 0;
@@ -125,7 +124,8 @@ public class AccountActivity extends AppCompatActivity {
                 }
                 double longitude = Double.parseDouble(tokens[4]);
                 double latitude = Double.parseDouble(tokens[5]);
-                Shelter.shelters.add(new Shelter(tokens[1], key, capacity, tokens[3],longitude, latitude, tokens[6]));
+                Shelter.shelters.add(new Shelter(tokens[1], key, capacity,
+                        tokens[3],longitude, latitude, tokens[6]));
                 Log.d(AccountActivity.TAG, "The shelter is " + Shelter.shelters.get(cnt));
                 cnt++;
                 //model.addItem(new DataItem(tokens[NAME_POSITION], tokens[2], id, tokens[3]));
@@ -154,7 +154,8 @@ public class AccountActivity extends AppCompatActivity {
                     public void onClick(View v) {
                         Log.d(TAG, "Element " + getAdapterPosition() + " clicked.");
                         // TODO Auto-generated method stub
-                        Intent goToDetailed = new Intent(getApplicationContext(), DetailedViewActivity.class);
+                        Intent goToDetailed = new Intent(getApplicationContext(),
+                                DetailedViewActivity.class);
                         goToDetailed.putExtra("Position", getAdapterPosition());
                         startActivity(goToDetailed);
                     }

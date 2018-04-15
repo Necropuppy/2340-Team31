@@ -10,6 +10,9 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+/**
+ * Class for RegisterActivity (the register screen logic)
+ */
 public class RegisterActivity extends AppCompatActivity {
 
     private EditText email;
@@ -34,23 +37,18 @@ public class RegisterActivity extends AppCompatActivity {
         submit = (Button) findViewById(R.id.submit);
         typeSpinner = (Spinner) findViewById(R.id.typeSpinner);
 
-        /******************************************************************************************/
-
         /*
           Set up the adapter to display the allowable user types in the spinner
         */
-        ArrayAdapter<String> adapter = new ArrayAdapter(this,android.R.layout.simple_spinner_item, User.legalTypes);
+        ArrayAdapter<String> adapter = new ArrayAdapter(this,
+                android.R.layout.simple_spinner_item, User.legalTypes);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         typeSpinner.setAdapter(adapter);
-
-        /******************************************************************************************/
-
-        /******************************************************************************************/
 
         cancel = (Button) findViewById(R.id.cancel);
         cancel.setOnClickListener(new View.OnClickListener() {
 
-            // https://androidsolved.wordpress.com/2015/07/01/how-to-move-from-one-activityscreen-to-another-activityscreen-in-android/
+
             @Override
             public void onClick(View view) {
 
@@ -73,11 +71,14 @@ public class RegisterActivity extends AppCompatActivity {
                     }
                 }
                 if(!fail){
-                    User newUser = new User(name.getText().toString(),email.getText().toString(),password.getText().toString(),phone.getText().toString());
+                    User newUser = new User(name.getText().toString(),
+                            email.getText().toString(),password.getText().toString(),
+                            phone.getText().toString());
                     //User.users.add(newUser);
                     User.currentUser = newUser;
                     User.saveUsers(view.getContext());
-                    Intent go2Account = new Intent(RegisterActivity.this, AccountActivity.class);
+                    Intent go2Account = new Intent(RegisterActivity.this,
+                            AccountActivity.class);
                     startActivity(go2Account);
                 }
                 //Register fail - duplicate email

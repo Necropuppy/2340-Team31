@@ -1,9 +1,5 @@
 package team31.cs2340.gatech.sheltermap;
 
-/**
- * Created by Marcus on 4/15/2018.
- */
-
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 

@@ -18,6 +18,9 @@ public class ShelterConstructorTest {
     User siddu;
     ArrayList<User> users;
 
+    /**
+     * Sets up necessary objects for test
+     */
     @Before
     public void setUp() {
         users = new ArrayList<>();

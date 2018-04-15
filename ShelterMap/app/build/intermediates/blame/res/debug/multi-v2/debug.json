@@ -2051,38 +2051,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\siddudussa\\OneDrive - Georgia Institute of Technology\\Georgia Institute of Technology\\Classes\\2. Sophomore\\Spring Semester 2018\\CS 2340\\Milestones\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\values-v24_values-v24.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b7ac2a49c8b8e0d0588c44ba5d2f4344\\res\\values-v24\\values-v24.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,212,347,416,480,549",
-                        "endColumns": "156,134,68,63,68,69",
-                        "endOffsets": "207,342,411,475,544,614"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\4751a2057ec0171caba0b737b7d83798\\res\\values-v24\\values-v24.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,121,182,248",
-                        "endColumns": "65,60,65,66",
-                        "endOffsets": "116,177,243,310"
-                    },
-                    "to": {
-                        "startLines": "8,9,10,11",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "619,685,746,812",
-                        "endColumns": "65,60,65,66",
-                        "endOffsets": "680,741,807,874"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\siddudussa\\OneDrive - Georgia Institute of Technology\\Georgia Institute of Technology\\Classes\\2. Sophomore\\Spring Semester 2018\\CS 2340\\Milestones\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\values-zu_values-zu.arsc.flat",
             "map": [
                 {
@@ -2236,6 +2204,38 @@
                         "startOffsets": "7129",
                         "endColumns": "190",
                         "endOffsets": "7315"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\siddudussa\\OneDrive - Georgia Institute of Technology\\Georgia Institute of Technology\\Classes\\2. Sophomore\\Spring Semester 2018\\CS 2340\\Milestones\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\values-v24_values-v24.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b7ac2a49c8b8e0d0588c44ba5d2f4344\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,212,347,416,480,549",
+                        "endColumns": "156,134,68,63,68,69",
+                        "endOffsets": "207,342,411,475,544,614"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\4751a2057ec0171caba0b737b7d83798\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    },
+                    "to": {
+                        "startLines": "8,9,10,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "619,685,746,812",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "680,741,807,874"
                     }
                 }
             ]
@@ -2562,22 +2562,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\values-v12_values-v12.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c528f4f7543f744ed82880a8369ab67e\\res\\values-v12\\values-v12.xml",
-                    "from": {
-                        "startLines": "2,5,8,9",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,279,479,598",
-                        "endLines": "4,7,8,9",
-                        "endColumns": "12,12,118,94",
-                        "endOffsets": "274,474,593,688"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\siddudussa\\OneDrive - Georgia Institute of Technology\\Georgia Institute of Technology\\Classes\\2. Sophomore\\Spring Semester 2018\\CS 2340\\Milestones\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\values-km_values-km.arsc.flat",
             "map": [
                 {
@@ -2714,6 +2698,22 @@
                         "startOffsets": "6837",
                         "endColumns": "207",
                         "endOffsets": "7040"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\values-v12_values-v12.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c528f4f7543f744ed82880a8369ab67e\\res\\values-v12\\values-v12.xml",
+                    "from": {
+                        "startLines": "2,5,8,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,279,479,598",
+                        "endLines": "4,7,8,9",
+                        "endColumns": "12,12,118,94",
+                        "endOffsets": "274,474,593,688"
                     }
                 }
             ]
@@ -5040,21 +5040,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\values-eu-rES_values-eu-rES.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-24.0.0.aar\\ffdcfab90cc50661ddf2a8307fc7d87c\\res\\values-eu-rES\\values-eu-rES.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,157,253,339,437,542,637,732,828,921,1033,1157,1243,1333,1426,1513",
-                        "endColumns": "101,95,85,97,104,94,94,95,92,111,123,85,89,92,86,93",
-                        "endOffsets": "152,248,334,432,537,632,727,823,916,1028,1152,1238,1328,1421,1508,1602"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\values-ur-rPK_values-ur-rPK.arsc.flat",
             "map": [
                 {
@@ -5065,6 +5050,21 @@
                         "startOffsets": "55,160,260,351,442,550,649,743,841,935,1050,1165,1254,1337,1433,1517",
                         "endColumns": "104,99,90,90,107,98,93,97,93,114,114,88,82,95,83,90",
                         "endOffsets": "155,255,346,437,545,644,738,836,930,1045,1160,1249,1332,1428,1512,1603"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\values-eu-rES_values-eu-rES.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-24.0.0.aar\\ffdcfab90cc50661ddf2a8307fc7d87c\\res\\values-eu-rES\\values-eu-rES.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,157,253,339,437,542,637,732,828,921,1033,1157,1243,1333,1426,1513",
+                        "endColumns": "101,95,85,97,104,94,94,95,92,111,123,85,89,92,86,93",
+                        "endOffsets": "152,248,334,432,537,632,727,823,916,1028,1152,1238,1328,1421,1508,1602"
                     }
                 }
             ]
