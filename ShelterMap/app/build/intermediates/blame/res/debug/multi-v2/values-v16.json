@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\siddudussa\\OneDrive - Georgia Institute of Technology\\Georgia Institute of Technology\\Classes\\2. Sophomore\\Spring Semester 2018\\CS 2340\\Milestones\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\siddudussa\\OneDrive - Georgia Institute of Technology\\Georgia Institute of Technology\\Classes\\2. Sophomore\\Spring Semester 2018\\CS 2340\\Milestones\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b7ac2a49c8b8e0d0588c44ba5d2f4344\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b7ac2a49c8b8e0d0588c44ba5d2f4344\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\e5a82787dd21b66e425f7daaeb805adf\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\e5a82787dd21b66e425f7daaeb805adf\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -35,10 +35,44 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\nfoot\\Desktop\\CS2340 Project\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "/Users/benpusey/Documents/2340-Team31/ShelterMap/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nfoot\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ff4a88bf2b6d28b918aae2cd201836a4\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/benpusey/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/309d9be74e6eaf5406ebe34c7b029f35/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/Users/benpusey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cf19b272dc5899df2604a29063e70bd3/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\nfoot\\Desktop\\CS2340 Project\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\nfoot\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ff4a88bf2b6d28b918aae2cd201836a4\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -57,7 +91,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\nfoot\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\6c90edfb003e090e4087def26c936851\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\nfoot\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\6c90edfb003e090e4087def26c936851\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -69,10 +103,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\44537140e8d18dcc504aa855dc7ada05\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\44537140e8d18dcc504aa855dc7ada05\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -82,7 +116,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c528f4f7543f744ed82880a8369ab67e\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c528f4f7543f744ed82880a8369ab67e\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

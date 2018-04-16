@@ -1,61 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\siddudussa\\OneDrive - Georgia Institute of Technology\\Georgia Institute of Technology\\Classes\\2. Sophomore\\Spring Semester 2018\\CS 2340\\Milestones\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ro\\values-ro.xml",
+            "outputFile": "/Users/benpusey/Documents/2340-Team31/ShelterMap/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.8.0.aar\\23db3571f5f21e3b18856ac228151053\\res\\values-ro\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "283,388,580,707,814,1024,1154,1288,1509,1617,1807,1937,2142,2334,2431,2524",
-                        "endColumns": "104,191,126,106,209,129,133,220,107,189,129,204,191,96,92,106",
-                        "endOffsets": "387,579,706,813,1023,1153,1287,1508,1616,1806,1936,2141,2333,2430,2523,2630"
-                    },
-                    "to": {
-                        "startLines": "59,60,61,62,63,64,65,67,68,69,70,71,72,73,74,75",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "6045,6154,6346,6477,6588,6798,6932,7274,7495,7607,7797,7931,8136,8332,8433,8530",
-                        "endColumns": "108,191,130,110,209,133,137,220,111,189,133,204,195,100,96,110",
-                        "endOffsets": "6149,6341,6472,6583,6793,6927,7065,7490,7602,7792,7926,8131,8327,8428,8525,8636"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.8.0.aar\\e1e53dfb8d2e74894e126992a205af1c\\res\\values-ro\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "285",
-                        "endColumns": "203",
-                        "endOffsets": "488"
-                    },
-                    "to": {
-                        "startLines": "66",
-                        "startColumns": "4",
-                        "startOffsets": "7070",
-                        "endColumns": "203",
-                        "endOffsets": "7269"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-9.8.0.aar\\2da9dcd79da995b09bdb5f159137e94f\\res\\values-ro\\values.xml",
-                    "from": {
-                        "startLines": "4,5",
-                        "startColumns": "0,0",
-                        "startOffsets": "233,337",
-                        "endColumns": "103,92",
-                        "endOffsets": "336,429"
-                    },
-                    "to": {
-                        "startLines": "99,100",
-                        "startColumns": "4,4",
-                        "startOffsets": "11014,11122",
-                        "endColumns": "107,96",
-                        "endOffsets": "11117,11214"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-24.0.0.aar\\a7d87ba1c6a576fe4d9cdb5f38f08f26\\res\\values-ro\\values-ro.xml",
+                    "source": "/Users/benpusey/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-24.0.0.aar/da585f2577d3ccacc7fe8a86000f1e18/res/values-ro/values-ro.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -72,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-9.8.0.aar\\84ff859e4e3efbbb5678ccc168e09375\\res\\values-ro\\values.xml",
+                    "source": "/Users/benpusey/.gradle/caches/transforms-1/files-1.1/play-services-cast-9.8.0.aar/3a4659b0810b21aa7f194c07bc955d06/res/values-ro/values.xml",
                     "from": {
                         "startLines": "4,5,6",
                         "startColumns": "0,0,0",
@@ -89,7 +38,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-9.8.0.aar\\9ab6d743669ffcf4764dd2e13c45e99d\\res\\values-ro\\values.xml",
+                    "source": "/Users/benpusey/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.8.0.aar/7a22b5fe30ecc0ca294fd216a73fb7c1/res/values-ro/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "203",
+                        "endOffsets": "488"
+                    },
+                    "to": {
+                        "startLines": "66",
+                        "startColumns": "4",
+                        "startOffsets": "7070",
+                        "endColumns": "203",
+                        "endOffsets": "7269"
+                    }
+                },
+                {
+                    "source": "/Users/benpusey/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.8.0.aar/3c77948e5769cf9a5bce084878868f5a/res/values-ro/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -106,7 +72,58 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b7ac2a49c8b8e0d0588c44ba5d2f4344\\res\\values-ro\\values-ro.xml",
+                    "source": "/Users/benpusey/.gradle/caches/transforms-1/files-1.1/play-services-places-9.8.0.aar/b6746d575f323d7f327389ee73ea1628/res/values-ro/values.xml",
+                    "from": {
+                        "startLines": "4,5",
+                        "startColumns": "0,0",
+                        "startOffsets": "233,337",
+                        "endColumns": "103,92",
+                        "endOffsets": "336,429"
+                    },
+                    "to": {
+                        "startLines": "99,100",
+                        "startColumns": "4,4",
+                        "startOffsets": "11014,11122",
+                        "endColumns": "107,96",
+                        "endOffsets": "11117,11214"
+                    }
+                },
+                {
+                    "source": "/Users/benpusey/.gradle/caches/transforms-1/files-1.1/play-services-ads-9.8.0.aar/d2ce1ccd91e000002f13661246a202f5/res/values-ro/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "237,305,440,551,658,781,888,989,1060,1204",
+                        "endColumns": "67,134,110,106,122,106,100,70,143,91",
+                        "endOffsets": "304,439,550,657,780,887,988,1059,1203,1295"
+                    },
+                    "to": {
+                        "startLines": "21,76,77,78,79,80,81,82,103,104",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2118,8641,8780,8895,9006,9133,9244,9349,11403,11551",
+                        "endColumns": "71,138,114,110,126,110,104,74,147,95",
+                        "endOffsets": "2185,8775,8890,9001,9128,9239,9344,9419,11546,11642"
+                    }
+                },
+                {
+                    "source": "/Users/benpusey/.gradle/caches/transforms-1/files-1.1/play-services-base-9.8.0.aar/736e89d01c4bebf2d4a9ed68ddd434f6/res/values-ro/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "283,388,580,707,814,1024,1154,1288,1509,1617,1807,1937,2142,2334,2431,2524",
+                        "endColumns": "104,191,126,106,209,129,133,220,107,189,129,204,191,96,92,106",
+                        "endOffsets": "387,579,706,813,1023,1153,1287,1508,1616,1806,1936,2141,2333,2430,2523,2630"
+                    },
+                    "to": {
+                        "startLines": "59,60,61,62,63,64,65,67,68,69,70,71,72,73,74,75",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "6045,6154,6346,6477,6588,6798,6932,7274,7495,7607,7797,7931,8136,8332,8433,8530",
+                        "endColumns": "108,191,130,110,209,133,137,220,111,189,133,204,195,100,96,110",
+                        "endOffsets": "6149,6341,6472,6583,6793,6927,7065,7490,7602,7792,7926,8131,8327,8428,8525,8636"
+                    }
+                },
+                {
+                    "source": "/Users/benpusey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cf19b272dc5899df2604a29063e70bd3/res/values-ro/values-ro.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -123,7 +140,148 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-9.8.0.aar\\8c447ebbca1399e57e200dd02e17dd0e\\res\\values-ro\\values.xml",
+                    "source": "/Users/benpusey/.gradle/caches/transforms-1/files-1.1/play-services-wallet-9.8.0.aar/58239260492f0b8e9921710ff6ad0fc9/res/values-ro/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "240",
+                        "endColumns": "103",
+                        "endOffsets": "343"
+                    },
+                    "to": {
+                        "startLines": "105",
+                        "startColumns": "4",
+                        "startOffsets": "11647",
+                        "endColumns": "107",
+                        "endOffsets": "11750"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\siddudussa\\OneDrive - Georgia Institute of Technology\\Georgia Institute of Technology\\Classes\\2. Sophomore\\Spring Semester 2018\\CS 2340\\Milestones\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ro\\values-ro.xml",
+            "map": [
+                {
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.8.0.aar\\23db3571f5f21e3b18856ac228151053\\res\\values-ro\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "283,388,580,707,814,1024,1154,1288,1509,1617,1807,1937,2142,2334,2431,2524",
+                        "endColumns": "104,191,126,106,209,129,133,220,107,189,129,204,191,96,92,106",
+                        "endOffsets": "387,579,706,813,1023,1153,1287,1508,1616,1806,1936,2141,2333,2430,2523,2630"
+                    },
+                    "to": {
+                        "startLines": "59,60,61,62,63,64,65,67,68,69,70,71,72,73,74,75",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "6045,6154,6346,6477,6588,6798,6932,7274,7495,7607,7797,7931,8136,8332,8433,8530",
+                        "endColumns": "108,191,130,110,209,133,137,220,111,189,133,204,195,100,96,110",
+                        "endOffsets": "6149,6341,6472,6583,6793,6927,7065,7490,7602,7792,7926,8131,8327,8428,8525,8636"
+                    }
+                },
+                {
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.8.0.aar\\e1e53dfb8d2e74894e126992a205af1c\\res\\values-ro\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "203",
+                        "endOffsets": "488"
+                    },
+                    "to": {
+                        "startLines": "66",
+                        "startColumns": "4",
+                        "startOffsets": "7070",
+                        "endColumns": "203",
+                        "endOffsets": "7269"
+                    }
+                },
+                {
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-9.8.0.aar\\2da9dcd79da995b09bdb5f159137e94f\\res\\values-ro\\values.xml",
+                    "from": {
+                        "startLines": "4,5",
+                        "startColumns": "0,0",
+                        "startOffsets": "233,337",
+                        "endColumns": "103,92",
+                        "endOffsets": "336,429"
+                    },
+                    "to": {
+                        "startLines": "99,100",
+                        "startColumns": "4,4",
+                        "startOffsets": "11014,11122",
+                        "endColumns": "107,96",
+                        "endOffsets": "11117,11214"
+                    }
+                },
+                {
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-24.0.0.aar\\a7d87ba1c6a576fe4d9cdb5f38f08f26\\res\\values-ro\\values-ro.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,164,264,352,452,562,662,761,859,954,1075,1194,1284,1367,1461,1547",
+                        "endColumns": "108,99,87,99,109,99,98,97,94,120,118,89,82,93,85,97",
+                        "endOffsets": "159,259,347,447,557,657,756,854,949,1070,1189,1279,1362,1456,1542,1640"
+                    },
+                    "to": {
+                        "startLines": "83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "9424,9533,9633,9721,9821,9931,10031,10130,10228,10323,10444,10563,10653,10736,10830,10916",
+                        "endColumns": "108,99,87,99,109,99,98,97,94,120,118,89,82,93,85,97",
+                        "endOffsets": "9528,9628,9716,9816,9926,10026,10125,10223,10318,10439,10558,10648,10731,10825,10911,11009"
+                    }
+                },
+                {
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-9.8.0.aar\\84ff859e4e3efbbb5678ccc168e09375\\res\\values-ro\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "288,424,566",
+                        "endColumns": "135,141,94",
+                        "endOffsets": "423,565,660"
+                    },
+                    "to": {
+                        "startLines": "37,38,39",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "3726,3862,4004",
+                        "endColumns": "135,141,98",
+                        "endOffsets": "3857,3999,4098"
+                    }
+                },
+                {
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-9.8.0.aar\\9ab6d743669ffcf4764dd2e13c45e99d\\res\\values-ro\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "298,372,471,557,677,762,878,992,1103,1202,1303,1387,1485,1586,1690,1774,1851,1922,2004,2100,2199,2300,2398,2497,2568,2663,2765,2861,3019,3153,3278,3372,3459,3561",
+                        "endColumns": "73,98,85,119,84,115,113,110,98,100,83,97,100,103,83,76,70,81,95,98,100,97,98,70,94,101,95,157,133,124,93,86,101,82",
+                        "endOffsets": "371,470,556,676,761,877,991,1102,1201,1302,1386,1484,1585,1689,1773,1850,1921,2003,2099,2198,2299,2397,2496,2567,2662,2764,2860,3018,3152,3277,3371,3458,3560,3643"
+                    },
+                    "to": {
+                        "startLines": "22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2190,2268,2371,2461,2585,2674,2794,2912,3027,3130,3235,3323,3425,3530,3638,4103,4184,4259,4345,4445,4548,4653,4755,4858,4933,5032,5138,5238,5396,5534,5663,5761,5852,5958",
+                        "endColumns": "77,102,89,123,88,119,117,114,102,104,87,101,104,107,87,80,74,85,99,102,104,101,102,74,98,105,99,157,137,128,97,90,105,86",
+                        "endOffsets": "2263,2366,2456,2580,2669,2789,2907,3022,3125,3230,3318,3420,3525,3633,3721,4179,4254,4340,4440,4543,4648,4750,4853,4928,5027,5133,5233,5391,5529,5658,5756,5847,5953,6040"
+                    }
+                },
+                {
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b7ac2a49c8b8e0d0588c44ba5d2f4344\\res\\values-ro\\values-ro.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,176,284,407,511,624,712,824,945,1030,1111,1194,1306,1419,1519,1633,1738,1844,1965,2068,2151",
+                        "endColumns": "120,107,122,103,112,87,111,120,84,80,82,111,112,99,113,104,105,120,102,82,100",
+                        "endOffsets": "171,279,402,506,619,707,819,940,1025,1106,1189,1301,1414,1514,1628,1733,1839,1960,2063,2146,2247"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,101,102",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,226,334,457,561,674,762,874,995,1080,1161,1244,1356,1469,1569,1683,1788,1894,2015,11219,11302",
+                        "endColumns": "120,107,122,103,112,87,111,120,84,80,82,111,112,99,113,104,105,120,102,82,100",
+                        "endOffsets": "221,329,452,556,669,757,869,990,1075,1156,1239,1351,1464,1564,1678,1783,1889,2010,2113,11297,11398"
+                    }
+                },
+                {
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-9.8.0.aar\\8c447ebbca1399e57e200dd02e17dd0e\\res\\values-ro\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -140,7 +298,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-9.8.0.aar\\47794d8c293553be0d05b8a689fef8a5\\res\\values-ro\\values.xml",
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-9.8.0.aar\\47794d8c293553be0d05b8a689fef8a5\\res\\values-ro\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0",
@@ -159,10 +317,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ro\\values-ro.xml",
+            "outputFile": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ro\\values-ro.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.8.0.aar\\58d5be97b4db1c6f9b15edfddb6c70ee\\res\\values-ro\\values.xml",
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.8.0.aar\\58d5be97b4db1c6f9b15edfddb6c70ee\\res\\values-ro\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -179,7 +337,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c528f4f7543f744ed82880a8369ab67e\\res\\values-ro\\values-ro.xml",
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c528f4f7543f744ed82880a8369ab67e\\res\\values-ro\\values-ro.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -196,7 +354,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.8.0.aar\\d09a28a49e7740c6b04d8af1d49b06a3\\res\\values-ro\\values.xml",
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.8.0.aar\\d09a28a49e7740c6b04d8af1d49b06a3\\res\\values-ro\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -213,7 +371,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-9.8.0.aar\\d229aa716b6d905f2810e387a9797755\\res\\values-ro\\values.xml",
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-9.8.0.aar\\d229aa716b6d905f2810e387a9797755\\res\\values-ro\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0",
@@ -230,7 +388,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-24.0.0.aar\\ffdcfab90cc50661ddf2a8307fc7d87c\\res\\values-ro\\values-ro.xml",
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-24.0.0.aar\\ffdcfab90cc50661ddf2a8307fc7d87c\\res\\values-ro\\values-ro.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -247,7 +405,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-9.8.0.aar\\64474f4b4343c8e86c36c15aa90ae250\\res\\values-ro\\values.xml",
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-9.8.0.aar\\64474f4b4343c8e86c36c15aa90ae250\\res\\values-ro\\values.xml",
                     "from": {
                         "startLines": "4,5",
                         "startColumns": "0,0",
@@ -264,7 +422,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-9.8.0.aar\\72ec83ae44f43b13a68baf75cc45fe83\\res\\values-ro\\values.xml",
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-9.8.0.aar\\72ec83ae44f43b13a68baf75cc45fe83\\res\\values-ro\\values.xml",
                     "from": {
                         "startLines": "4,5,6",
                         "startColumns": "0,0,0",
@@ -281,7 +439,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-9.8.0.aar\\e13d0abf21ea0f6e7703c48d668dd1e2\\res\\values-ro\\values.xml",
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-9.8.0.aar\\e13d0abf21ea0f6e7703c48d668dd1e2\\res\\values-ro\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -298,7 +456,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-9.8.0.aar\\29571fb2e35d9a9b6523a581f8600991\\res\\values-ro\\values.xml",
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-9.8.0.aar\\29571fb2e35d9a9b6523a581f8600991\\res\\values-ro\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -317,10 +475,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\nfoot\\Desktop\\CS2340 Project\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ro\\values-ro.xml",
+            "outputFile": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\nfoot\\Desktop\\CS2340 Project\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ro\\values-ro.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nfoot\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.8.0.aar\\0a4121258faa9d0867c37ecf9e23c3a2\\res\\values-ro\\values.xml",
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\nfoot\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.8.0.aar\\0a4121258faa9d0867c37ecf9e23c3a2\\res\\values-ro\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -337,7 +495,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\nfoot\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ff4a88bf2b6d28b918aae2cd201836a4\\res\\values-ro\\values-ro.xml",
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\nfoot\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ff4a88bf2b6d28b918aae2cd201836a4\\res\\values-ro\\values-ro.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -354,7 +512,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\nfoot\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-9.8.0.aar\\9438b860a9625a19878f93d43f764b09\\res\\values-ro\\values.xml",
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\nfoot\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-9.8.0.aar\\9438b860a9625a19878f93d43f764b09\\res\\values-ro\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0",
@@ -371,7 +529,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\nfoot\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.8.0.aar\\78987236995ab86fcc60241969f9dd35\\res\\values-ro\\values.xml",
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\nfoot\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.8.0.aar\\78987236995ab86fcc60241969f9dd35\\res\\values-ro\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -388,7 +546,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\nfoot\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-9.8.0.aar\\c51cfc540e42b93aa972333866cefb78\\res\\values-ro\\values.xml",
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\nfoot\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-9.8.0.aar\\c51cfc540e42b93aa972333866cefb78\\res\\values-ro\\values.xml",
                     "from": {
                         "startLines": "4,5",
                         "startColumns": "0,0",
@@ -405,7 +563,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\nfoot\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-9.8.0.aar\\4c4deddb0ea173f4ea8a1ef3fee1eb7a\\res\\values-ro\\values.xml",
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\nfoot\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-9.8.0.aar\\4c4deddb0ea173f4ea8a1ef3fee1eb7a\\res\\values-ro\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -422,7 +580,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\nfoot\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-24.0.0.aar\\141bfa947a3df9cb22f313f5f5f9dc76\\res\\values-ro\\values-ro.xml",
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\nfoot\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-24.0.0.aar\\141bfa947a3df9cb22f313f5f5f9dc76\\res\\values-ro\\values-ro.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -439,7 +597,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\nfoot\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-9.8.0.aar\\6e9c8e622d8a9a8210718d7b696265bb\\res\\values-ro\\values.xml",
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\nfoot\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-9.8.0.aar\\6e9c8e622d8a9a8210718d7b696265bb\\res\\values-ro\\values.xml",
                     "from": {
                         "startLines": "4,5,6",
                         "startColumns": "0,0,0",
@@ -456,7 +614,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\nfoot\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-9.8.0.aar\\f4d8898bf7d176dc22786971071a6bba\\res\\values-ro\\values.xml",
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\nfoot\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-9.8.0.aar\\f4d8898bf7d176dc22786971071a6bba\\res\\values-ro\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
