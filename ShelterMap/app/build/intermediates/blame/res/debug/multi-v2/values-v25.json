@@ -1,62 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\nfoot\\Desktop\\CS2340 Project\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
+            "outputFile": "/Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml",
             "map": [
                 {
-<<<<<<< HEAD
                     "source": "/Users/siddudussa/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/33c4e8ea0d90b616b72cfaa5a7930d4c/res/values-v25/values-v25.xml",
-=======
-                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\nfoot\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ff4a88bf2b6d28b918aae2cd201836a4\\res\\values-v25\\values-v25.xml",
-                    "from": {
-                        "startLines": "2,3,4,6",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,126,209,308",
-                        "endLines": "2,3,5,7",
-                        "endColumns": "70,82,12,12",
-                        "endOffsets": "121,204,303,414"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/benpusey/Documents/2340-Team31/ShelterMap/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml",
-            "map": [
-                {
-                    "source": "/Users/benpusey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cf19b272dc5899df2604a29063e70bd3/res/values-v25/values-v25.xml",
-                    "from": {
-                        "startLines": "2,3,4,6",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,126,209,308",
-                        "endLines": "2,3,5,7",
-                        "endColumns": "70,82,12,12",
-                        "endOffsets": "121,204,303,414"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\siddudussa\\OneDrive - Georgia Institute of Technology\\Georgia Institute of Technology\\Classes\\2. Sophomore\\Spring Semester 2018\\CS 2340\\Milestones\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
-            "map": [
-                {
-                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b7ac2a49c8b8e0d0588c44ba5d2f4344\\res\\values-v25\\values-v25.xml",
-                    "from": {
-                        "startLines": "2,3,4,6",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,126,209,308",
-                        "endLines": "2,3,5,7",
-                        "endColumns": "70,82,12,12",
-                        "endOffsets": "121,204,303,414"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
-            "map": [
-                {
-                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c528f4f7543f744ed82880a8369ab67e\\res\\values-v25\\values-v25.xml",
->>>>>>> 150eccbb0948fa8f8d3c19ea78a5bb665f10f72f
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

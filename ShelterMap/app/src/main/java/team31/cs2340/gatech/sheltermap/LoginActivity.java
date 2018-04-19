@@ -16,12 +16,10 @@ public class LoginActivity extends AppCompatActivity {
 
     private EditText email;
     private EditText password;
-<<<<<<< HEAD
     private Button cancel;
     private Button submit;
     private TextView forgotPassword;
-=======
->>>>>>> 150eccbb0948fa8f8d3c19ea78a5bb665f10f72f
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,14 +37,11 @@ public class LoginActivity extends AppCompatActivity {
         cancel = (Button) findViewById(R.id.cancel);
         submit = (Button) findViewById(R.id.submit);
 
-<<<<<<< HEAD
         forgotPassword = (TextView) findViewById(R.id.forgotPassword);
 
         /******************************************************************************************/
 
-=======
         cancel = (Button) findViewById(R.id.cancel);
->>>>>>> 150eccbb0948fa8f8d3c19ea78a5bb665f10f72f
         cancel.setOnClickListener(new View.OnClickListener() {
 
 

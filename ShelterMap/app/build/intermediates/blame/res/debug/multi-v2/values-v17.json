@@ -1,62 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/benpusey/Documents/2340-Team31/ShelterMap/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
+            "outputFile": "/Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
             "map": [
                 {
-<<<<<<< HEAD
                     "source": "/Users/siddudussa/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/33c4e8ea0d90b616b72cfaa5a7930d4c/res/values-v17/values-v17.xml",
-=======
-                    "source": "/Users/benpusey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cf19b272dc5899df2604a29063e70bd3/res/values-v17/values-v17.xml",
-                    "from": {
-                        "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,228,456,614,764,936,1164,1406,1577,1751,1920,2193,2393,2597",
-                        "endLines": "4,8,11,14,17,21,25,28,31,34,38,41,45,49",
-                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12",
-                        "endOffsets": "223,451,609,759,931,1159,1401,1572,1746,1915,2188,2388,2592,2921"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\nfoot\\Desktop\\CS2340 Project\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
-            "map": [
-                {
-                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\nfoot\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ff4a88bf2b6d28b918aae2cd201836a4\\res\\values-v17\\values-v17.xml",
-                    "from": {
-                        "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,228,456,614,764,936,1164,1406,1577,1751,1920,2193,2393,2597",
-                        "endLines": "4,8,11,14,17,21,25,28,31,34,38,41,45,49",
-                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12",
-                        "endOffsets": "223,451,609,759,931,1159,1401,1572,1746,1915,2188,2388,2592,2921"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\siddudussa\\OneDrive - Georgia Institute of Technology\\Georgia Institute of Technology\\Classes\\2. Sophomore\\Spring Semester 2018\\CS 2340\\Milestones\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
-            "map": [
-                {
-                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b7ac2a49c8b8e0d0588c44ba5d2f4344\\res\\values-v17\\values-v17.xml",
-                    "from": {
-                        "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,228,456,614,764,936,1164,1406,1577,1751,1920,2193,2393,2597",
-                        "endLines": "4,8,11,14,17,21,25,28,31,34,38,41,45,49",
-                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12",
-                        "endOffsets": "223,451,609,759,931,1159,1401,1572,1746,1915,2188,2388,2592,2921"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
-            "map": [
-                {
-                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c528f4f7543f744ed82880a8369ab67e\\res\\values-v17\\values-v17.xml",
->>>>>>> 150eccbb0948fa8f8d3c19ea78a5bb665f10f72f
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
