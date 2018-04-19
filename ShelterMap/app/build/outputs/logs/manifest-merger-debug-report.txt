@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-49:12
-INJECTED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-49:12
-INJECTED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-49:12
-INJECTED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-49:12
+ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-51:12
 MERGED from [com.google.android.gms:play-services:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-9.8.0.aar/9c67fcca72d187984bd7346786980e89/AndroidManifest.xml:2:1-6:12
 MERGED from [com.android.support:multidex:1.0.2] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/9beb99e5b4bea0ffc1d047274560914a/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:design:26.1.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/b4f1a8d290623b2ec5cbfac073d20ca9/AndroidManifest.xml:17:1-31:12
@@ -71,25 +71,53 @@ MERGED from [com.android.support:support-core-utils:26.1.0] /Users/siddudussa/.g
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/9fabeae5dbbe10c7358484a7bd0c1018/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-compat:26.1.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/be6461e3ebff453b3e69e5033187e058/AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/699c9081c2bc7e46f0deed8af89fbc8d/AndroidManifest.xml:17:1-30:12
-INJECTED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-49:12
-INJECTED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-49:12
-INJECTED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-51:12
 	package
 		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:3:5-46
 		INJECTED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-49:12
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-51:12
 		INJECTED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-49:12
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:1-51:12
 		INJECTED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:5:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/2c0ba9599be9df60aa6c34095527fdad/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/2c0ba9599be9df60aa6c34095527fdad/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.8.0.aar/17bda71b0c47eb5af8636a641e61be87/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.8.0.aar/17bda71b0c47eb5af8636a641e61be87/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.8.0.aar/c107fe40387b2094f13afff3dcc312cd/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.8.0.aar/c107fe40387b2094f13afff3dcc312cd/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.8.0.aar/ea18d37ead080ba61a6c1ded0e2af7eb/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.8.0.aar/ea18d37ead080ba61a6c1ded0e2af7eb/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.8.0.aar/4a220fe4f3e9adbbce49f04a2b153e72/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.8.0.aar/4a220fe4f3e9adbbce49f04a2b153e72/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.8.0.aar/8a6233487d9f98d7f97ec843b4b24bc1/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.8.0.aar/8a6233487d9f98d7f97ec843b4b24bc1/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.8.0.aar/5b1e5d29654bd60e59db57d583f8d5a1/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.8.0.aar/5b1e5d29654bd60e59db57d583f8d5a1/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-crash:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.8.0.aar/8e678f336f33eb1ebd709866e4a613a6/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.8.0.aar/8e678f336f33eb1ebd709866e4a613a6/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.8.0.aar/cecab705303632acb7f625003bdc087d/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.8.0.aar/cecab705303632acb7f625003bdc087d/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/765b5301b16d68299e8cdd95c987a2c0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/765b5301b16d68299e8cdd95c987a2c0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.8.0.aar/89adaab1136db7c33f4903c54050d8e0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.8.0.aar/89adaab1136db7c33f4903c54050d8e0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/071e803a55660cf5585234c3bcd4a8d4/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/071e803a55660cf5585234c3bcd4a8d4/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:5:5-47:19
+ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:7:5-49:19
 MERGED from [com.google.android.gms:play-services:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-9.8.0.aar/9c67fcca72d187984bd7346786980e89/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-9.8.0.aar/9c67fcca72d187984bd7346786980e89/AndroidManifest.xml:5:5-20
 MERGED from [com.android.support:design:26.1.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/b4f1a8d290623b2ec5cbfac073d20ca9/AndroidManifest.xml:25:5-29:19
@@ -203,93 +231,93 @@ MERGED from [com.android.support:support-compat:26.1.0] /Users/siddudussa/.gradl
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/699c9081c2bc7e46f0deed8af89fbc8d/AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/699c9081c2bc7e46f0deed8af89fbc8d/AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:13:9-40
 meta-data#com.google.android.geo.API_KEY
-ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:12:9-14:71
+ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:14:9-16:71
 	android:value
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:14:13-68
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:16:13-68
 	android:name
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:13:13-58
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:15:13-58
 activity#team31.cs2340.gatech.sheltermap.WelcomeActivity
-ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:16:9-22:20
+ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:18:9-24:20
 	android:name
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:16:19-50
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:18:19-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:17:13-21:29
+ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:18:17-69
+ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:18:25-66
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:20:17-77
+ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:20:27-74
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:22:27-74
 activity#team31.cs2340.gatech.sheltermap.LoginActivity
-ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:23:9-51
+ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:25:9-51
 	android:name
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:23:19-48
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:25:19-48
 activity#team31.cs2340.gatech.sheltermap.AccountActivity
-ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:24:9-53
+ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:26:9-53
 	android:name
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:24:19-50
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:26:19-50
 activity#team31.cs2340.gatech.sheltermap.RegisterActivity
-ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:25:9-54
+ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:27:9-54
 	android:name
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:25:19-51
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:27:19-51
 activity#team31.cs2340.gatech.sheltermap.DetailedViewActivity
-ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:26:9-58
+ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:28:9-58
 	android:name
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:26:19-55
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:28:19-55
 activity#team31.cs2340.gatech.sheltermap.SearchActivity
-ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:27:9-30:59
+ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:29:9-32:59
 	android:label
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:29:13-58
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:31:13-58
 	android:theme
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:30:13-56
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:32:13-56
 	android:name
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:28:13-43
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:30:13-43
 activity#team31.cs2340.gatech.sheltermap.ResultActivity
-ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:31:9-34:59
+ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:33:9-36:59
 	android:label
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:33:13-58
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:35:13-58
 	android:theme
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:34:13-56
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:36:13-56
 	android:name
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:32:13-43
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:34:13-43
 activity#team31.cs2340.gatech.sheltermap.SearchDetailedView
-ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:35:9-38:59
+ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:37:9-40:59
 	android:label
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:37:13-72
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:39:13-72
 	android:theme
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:38:13-56
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:40:13-56
 	android:name
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:36:13-47
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:38:13-47
 activity#team31.cs2340.gatech.sheltermap.MapActivity
-ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:39:9-42:59
+ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:41:9-44:59
 	android:label
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:41:13-55
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:43:13-55
 	android:theme
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:42:13-56
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:44:13-56
 	android:name
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:40:13-40
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:42:13-40
 activity#team31.cs2340.gatech.sheltermap.ForgotPasswordActivity
-ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:43:9-46:68
+ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:45:9-48:68
 	android:label
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:45:13-67
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:47:13-67
 	android:theme
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:46:13-56
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:48:13-56
 	android:name
-		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:44:13-51
+		ADDED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml:46:13-51
 uses-sdk
 INJECTED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/src/main/AndroidManifest.xml
@@ -480,32 +508,6 @@ service#com.google.android.gms.cast.framework.ReconnectionService
 ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.8.0.aar/acfc860e1e00e1408602d736f9b04de0/AndroidManifest.xml:7:9-92
 	android:name
 		ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.8.0.aar/acfc860e1e00e1408602d736f9b04de0/AndroidManifest.xml:7:18-90
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/2c0ba9599be9df60aa6c34095527fdad/AndroidManifest.xml:19:5-66
-MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.8.0.aar/17bda71b0c47eb5af8636a641e61be87/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.8.0.aar/17bda71b0c47eb5af8636a641e61be87/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.8.0.aar/c107fe40387b2094f13afff3dcc312cd/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.8.0.aar/c107fe40387b2094f13afff3dcc312cd/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.8.0.aar/ea18d37ead080ba61a6c1ded0e2af7eb/AndroidManifest.xml:18:5-66
-MERGED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.8.0.aar/ea18d37ead080ba61a6c1ded0e2af7eb/AndroidManifest.xml:18:5-66
-MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.8.0.aar/4a220fe4f3e9adbbce49f04a2b153e72/AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.8.0.aar/4a220fe4f3e9adbbce49f04a2b153e72/AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.8.0.aar/8a6233487d9f98d7f97ec843b4b24bc1/AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.8.0.aar/8a6233487d9f98d7f97ec843b4b24bc1/AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.8.0.aar/5b1e5d29654bd60e59db57d583f8d5a1/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.8.0.aar/5b1e5d29654bd60e59db57d583f8d5a1/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-crash:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.8.0.aar/8e678f336f33eb1ebd709866e4a613a6/AndroidManifest.xml:18:5-66
-MERGED from [com.google.firebase:firebase-crash:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.8.0.aar/8e678f336f33eb1ebd709866e4a613a6/AndroidManifest.xml:18:5-66
-MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.8.0.aar/cecab705303632acb7f625003bdc087d/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.8.0.aar/cecab705303632acb7f625003bdc087d/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/765b5301b16d68299e8cdd95c987a2c0/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/765b5301b16d68299e8cdd95c987a2c0/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.8.0.aar/89adaab1136db7c33f4903c54050d8e0/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.8.0.aar/89adaab1136db7c33f4903c54050d8e0/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/071e803a55660cf5585234c3bcd4a8d4/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/071e803a55660cf5585234c3bcd4a8d4/AndroidManifest.xml:20:5-66
-	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/2c0ba9599be9df60aa6c34095527fdad/AndroidManifest.xml:19:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/2c0ba9599be9df60aa6c34095527fdad/AndroidManifest.xml:20:5-78
 MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.8.0.aar/17bda71b0c47eb5af8636a641e61be87/AndroidManifest.xml:21:5-78
