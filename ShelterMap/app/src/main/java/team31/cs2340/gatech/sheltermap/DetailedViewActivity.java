@@ -1,27 +1,28 @@
 package team31.cs2340.gatech.sheltermap;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Spinner;
 import android.widget.TextView;
 
-/**
+/*
  * Created by Elmer on 3/3/2018.
  */
 
+/**
+ * Class for the DetailedViewActivity (the view logic after clicking on shelter in main screen)
+ */
 public class DetailedViewActivity extends AppCompatActivity{
 
-    private Button checkin;
-    private Button checkout;
-    private EditText famnum;
 
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
-
+        Button checkin;
+        Button checkout;
+        EditText famnum;
 
 
         Log.d(AccountActivity.TAG, "Successful on create");
@@ -36,20 +37,27 @@ public class DetailedViewActivity extends AppCompatActivity{
         Shelter shelter = Shelter.shelters.get(position);
         Log.d(AccountActivity.TAG, "Successful extra");
         TextView name = (TextView) findViewById(R.id.shelter_name);
-        name.setText("Shelter Name: " + shelter.getName());
+        String name1 = "Shelter Name: " + shelter.getName();
+        name.setText(name1);
         Log.d(AccountActivity.TAG, "Successful name");
         TextView key = (TextView) findViewById(R.id.shelter_key);
-        key.setText("Shelter ID: " + shelter.getKey());
+        String name2 = "Shelter ID: " + shelter.getKey();
+        key.setText(name2);
         TextView capacity = (TextView) findViewById(R.id.shelter_cap);
-        capacity.setText("Capacity: " + shelter.getPop() + "/" + shelter.getCap());
+        String name3 = "Capacity: " + shelter.getPop() + "/" + shelter.getCap();
+        capacity.setText(name3);
         TextView restriction = (TextView) findViewById(R.id.shelter_restriction);
-        restriction.setText("" + shelter.getRestriction());
+        String name4 = "Restrictions: " + shelter.getRestriction();
+        restriction.setText(name4);
         TextView longitude = (TextView) findViewById(R.id.shelter_longitude);
-        longitude.setText("Longitude: " + shelter.getLongitude());
+        String name5 = "Longitude: " + shelter.getLongitude();
+        longitude.setText(name5);
         TextView latitude = (TextView) findViewById(R.id.shelter_latitude);
-        latitude.setText("Latitude: " + shelter.getLatitude());
+        String name6 = "Latitude: " + shelter.getLatitude();
+        latitude.setText(name6);
         TextView address = (TextView) findViewById(R.id.shelter_address);
-        address.setText("Address: " + shelter.getAddress());
+        String name7 = "Shelter Name: " + shelter.getAddress();
+        address.setText(name7);
 
 
 
@@ -76,7 +84,9 @@ public class DetailedViewActivity extends AppCompatActivity{
                             shelter.addPop(i);
                             User.currentUser.setUserShelterId(shelter.getKey());
                             User.saveUsers(view.getContext());
-                            capacity.setText("Capacity: " + shelter.getPop() + "/" + shelter.getCap());
+                            String name1 = "Capacity: " + shelter.getPop() + "/"
+                                    + shelter.getCap() ;
+                            capacity.setText(name1);
                         }
                     }
 
@@ -99,7 +109,9 @@ public class DetailedViewActivity extends AppCompatActivity{
                        User.saveUsers(view.getContext());
                        shelter.subPop(User.currentUser.getUserResNum());
                        User.currentUser.setUserResNum(0);
-                       capacity.setText("Capacity: " + shelter.getPop() + "/" + shelter.getCap());
+                       String name1 = "Capacity: " + shelter.getPop() + "/"
+                               + shelter.getCap();
+                       capacity.setText(name1);
                    }
                }
             }

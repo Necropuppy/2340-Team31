@@ -2,32 +2,32 @@ package team31.cs2340.gatech.sheltermap;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import java.util.ArrayList;
+import java.util.List;
 
+/**
+ * Class for ResultActivity (screen logic after searching)
+ */
 public class ResultActivity extends AppCompatActivity {
-    private RecyclerView mRecyclerView;
-    private RecyclerView.Adapter mAdapter;
-    private RecyclerView.LayoutManager mLayoutManager;
-
-    private String[] filteredNames;
-    private ArrayList<Shelter> filtered;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result);
+        RecyclerView mRecyclerView;
+        RecyclerView.Adapter mAdapter;
+
+        String[] filteredNames;
+        List<Shelter> filtered;
+        RecyclerView.LayoutManager mLayoutManager;
         mRecyclerView = (RecyclerView) findViewById(R.id.filtered_list);
         // use this setting to improve performance if you know that changes
         // in content do not change the layout size of the RecyclerView
@@ -54,7 +54,7 @@ public class ResultActivity extends AppCompatActivity {
         // you provide access to all the views for a data item in a view holder
         public class ViewHolder extends RecyclerView.ViewHolder {
             // each data item is just a string in this case
-            public TextView mTextView;
+            TextView mTextView;
 
             public ViewHolder(View v) {
                 super(v);
@@ -62,9 +62,10 @@ public class ResultActivity extends AppCompatActivity {
                 v.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Log.d(AccountActivity.TAG, "Element " + getAdapterPosition() + " clicked.");
-                        // TODO Auto-generated method stub
-                        Intent goToDetailed = new Intent(getApplicationContext(), SearchDetailedView.class);
+                        Log.d(AccountActivity.TAG, "Element " + getAdapterPosition()
+                                + " clicked.");
+                        Intent goToDetailed = new Intent(getApplicationContext(),
+                                SearchDetailedView.class);
                         goToDetailed.putExtra("Position", getAdapterPosition());
                         startActivity(goToDetailed);
                     }

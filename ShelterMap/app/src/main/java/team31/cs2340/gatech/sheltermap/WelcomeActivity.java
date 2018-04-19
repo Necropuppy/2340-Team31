@@ -6,23 +6,27 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+/**
+ * Class for WelcomeActivity (the screen logic for entry screen)
+ */
 public class WelcomeActivity extends AppCompatActivity {
 
-    private Button login;
-    private Button register;
 
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
         User.loadUsers(this);
+        Button login;
+        Button register;
 
         login = (Button) findViewById(R.id.login);
         register = (Button) findViewById(R.id.register);
 
-        /******************************************************************************************/
         login.setOnClickListener(new View.OnClickListener() {
 
-            // https://androidsolved.wordpress.com/2015/07/01/how-to-move-from-one-activityscreen-to-another-activityscreen-in-android/
+
             @Override
             public void onClick(View view) {
 
@@ -33,7 +37,7 @@ public class WelcomeActivity extends AppCompatActivity {
 
         register.setOnClickListener(new View.OnClickListener() {
 
-            // https://androidsolved.wordpress.com/2015/07/01/how-to-move-from-one-activityscreen-to-another-activityscreen-in-android/
+
             @Override
             public void onClick(View view) {
 

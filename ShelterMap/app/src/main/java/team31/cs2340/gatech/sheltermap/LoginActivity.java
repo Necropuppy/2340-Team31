@@ -1,26 +1,33 @@
 package team31.cs2340.gatech.sheltermap;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+/**
+ * Class for LoginActivity (the login screen logic)
+ */
 public class LoginActivity extends AppCompatActivity {
 
     private EditText email;
     private EditText password;
+<<<<<<< HEAD
     private Button cancel;
     private Button submit;
     private TextView forgotPassword;
+=======
+>>>>>>> 150eccbb0948fa8f8d3c19ea78a5bb665f10f72f
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Button cancel;
+        Button submit;
         setContentView(R.layout.activity_login);
 
         email = (EditText) findViewById(R.id.email);
@@ -32,22 +39,26 @@ public class LoginActivity extends AppCompatActivity {
         cancel = (Button) findViewById(R.id.cancel);
         submit = (Button) findViewById(R.id.submit);
 
+<<<<<<< HEAD
         forgotPassword = (TextView) findViewById(R.id.forgotPassword);
 
         /******************************************************************************************/
 
+=======
+        cancel = (Button) findViewById(R.id.cancel);
+>>>>>>> 150eccbb0948fa8f8d3c19ea78a5bb665f10f72f
         cancel.setOnClickListener(new View.OnClickListener() {
 
-            // https://androidsolved.wordpress.com/2015/07/01/how-to-move-from-one-activityscreen-to-another-activityscreen-in-android/
+
             @Override
             public void onClick(View view) {
-                // TODO Auto-generated method stub
                 Intent go2Welcome = new Intent(getApplicationContext(), WelcomeActivity.class);
                 startActivity(go2Welcome);
             }
         });
 
         submit.setOnClickListener(new View.OnClickListener() {
+            @Override
             public void onClick(View view) {
                 boolean fail = true;
                 for(User u: User.users){
@@ -55,7 +66,8 @@ public class LoginActivity extends AppCompatActivity {
                         if(u.getPassword().equals(password.getText().toString())){
                             //login success
                             User.currentUser = u;
-                            Intent go2Account = new Intent(LoginActivity.this, AccountActivity.class);
+                            Intent go2Account = new Intent(LoginActivity.this,
+                                    AccountActivity.class);
                             startActivity(go2Account);
                             fail = false;
                         }

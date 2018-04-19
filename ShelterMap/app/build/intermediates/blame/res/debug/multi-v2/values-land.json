@@ -1,29 +1,40 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\siddudussa\\OneDrive - Georgia Institute of Technology\\Georgia Institute of Technology\\Classes\\2. Sophomore\\Spring Semester 2018\\CS 2340\\Milestones\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "/Users/siddudussa/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/b4f1a8d290623b2ec5cbfac073d20ca9/res/values-land/values-land.xml",
+=======
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\b7ac2a49c8b8e0d0588c44ba5d2f4344\\res\\values-land\\values-land.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "232"
-                    },
-                    "to": {
-                        "startLines": "13",
-                        "startColumns": "4",
-                        "startOffsets": "933",
-                        "endLines": "16",
-                        "endColumns": "12",
-                        "endOffsets": "1110"
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
                     }
                 },
                 {
-                    "source": "/Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.8.0.aar/acfc860e1e00e1408602d736f9b04de0/res/values-land/values.xml",
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-24.0.0.aar\\a7d87ba1c6a576fe4d9cdb5f38f08f26\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,130,208",
+                        "endColumns": "74,77,74",
+                        "endOffsets": "125,203,278"
+                    },
+                    "to": {
+                        "startLines": "10,11,12",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "705,780,858",
+                        "endColumns": "74,77,74",
+                        "endOffsets": "775,853,928"
+                    }
+                },
+                {
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-9.8.0.aar\\9ab6d743669ffcf4764dd2e13c45e99d\\res\\values-land\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7",
                         "startColumns": "0,0,0,0",
@@ -40,7 +51,49 @@
                     }
                 },
                 {
-                    "source": "/Users/siddudussa/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/33c4e8ea0d90b616b72cfaa5a7930d4c/res/values-land/values-land.xml",
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\siddudussa\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\8407cde9389c4aea45b84aa47980c34a\\res\\values-land\\values-land.xml",
+>>>>>>> 150eccbb0948fa8f8d3c19ea78a5bb665f10f72f
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "13",
+                        "startColumns": "4",
+                        "startOffsets": "933",
+                        "endLines": "16",
+                        "endColumns": "12",
+                        "endOffsets": "1110"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\nfoot\\Desktop\\CS2340 Project\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\nfoot\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-9.8.0.aar\\f4d8898bf7d176dc22786971071a6bba\\res\\values-land\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7",
+                        "startColumns": "0,0,0,0",
+                        "startOffsets": "183,271,358,453",
+                        "endColumns": "87,86,94,90",
+                        "endOffsets": "270,357,452,543"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "328,420,511,610",
+                        "endColumns": "91,90,98,94",
+                        "endOffsets": "415,506,605,700"
+                    }
+                },
+                {
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\nfoot\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ff4a88bf2b6d28b918aae2cd201836a4\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -50,6 +103,168 @@
                     }
                 },
                 {
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\nfoot\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-24.0.0.aar\\141bfa947a3df9cb22f313f5f5f9dc76\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,130,208",
+                        "endColumns": "74,77,74",
+                        "endOffsets": "125,203,278"
+                    },
+                    "to": {
+                        "startLines": "10,11,12",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "705,780,858",
+                        "endColumns": "74,77,74",
+                        "endOffsets": "775,853,928"
+                    }
+                },
+                {
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\nfoot\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\2091469e8e3656c55462e73fa6ca1180\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "13",
+                        "startColumns": "4",
+                        "startOffsets": "933",
+                        "endLines": "16",
+                        "endColumns": "12",
+                        "endOffsets": "1110"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/benpusey/Documents/2340-Team31/ShelterMap/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/Users/benpusey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cf19b272dc5899df2604a29063e70bd3/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                },
+                {
+<<<<<<< HEAD
+                    "source": "/Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.8.0.aar/acfc860e1e00e1408602d736f9b04de0/res/values-land/values.xml",
+=======
+                    "source": "/Users/benpusey/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.8.0.aar/3c77948e5769cf9a5bce084878868f5a/res/values-land/values.xml",
+>>>>>>> 150eccbb0948fa8f8d3c19ea78a5bb665f10f72f
+                    "from": {
+                        "startLines": "4,5,6,7",
+                        "startColumns": "0,0,0,0",
+                        "startOffsets": "183,271,358,453",
+                        "endColumns": "87,86,94,90",
+                        "endOffsets": "270,357,452,543"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "328,420,511,610",
+                        "endColumns": "91,90,98,94",
+                        "endOffsets": "415,506,605,700"
+                    }
+                },
+                {
+<<<<<<< HEAD
+                    "source": "/Users/siddudussa/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/33c4e8ea0d90b616b72cfaa5a7930d4c/res/values-land/values-land.xml",
+=======
+                    "source": "/Users/benpusey/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-24.0.0.aar/da585f2577d3ccacc7fe8a86000f1e18/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,130,208",
+                        "endColumns": "74,77,74",
+                        "endOffsets": "125,203,278"
+                    },
+                    "to": {
+                        "startLines": "10,11,12",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "705,780,858",
+                        "endColumns": "74,77,74",
+                        "endOffsets": "775,853,928"
+                    }
+                },
+                {
+                    "source": "/Users/benpusey/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e9feb9a2cea60120bec30267c1e026bf/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "13",
+                        "startColumns": "4",
+                        "startOffsets": "933",
+                        "endLines": "16",
+                        "endColumns": "12",
+                        "endOffsets": "1110"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-9.8.0.aar\\29571fb2e35d9a9b6523a581f8600991\\res\\values-land\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7",
+                        "startColumns": "0,0,0,0",
+                        "startOffsets": "183,271,358,453",
+                        "endColumns": "87,86,94,90",
+                        "endOffsets": "270,357,452,543"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "328,420,511,610",
+                        "endColumns": "91,90,98,94",
+                        "endOffsets": "415,506,605,700"
+                    }
+                },
+                {
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-24.0.0.aar\\ffdcfab90cc50661ddf2a8307fc7d87c\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,130,208",
+                        "endColumns": "74,77,74",
+                        "endOffsets": "125,203,278"
+                    },
+                    "to": {
+                        "startLines": "10,11,12",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "705,780,858",
+                        "endColumns": "74,77,74",
+                        "endOffsets": "775,853,928"
+                    }
+                },
+                {
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c528f4f7543f744ed82880a8369ab67e\\res\\values-land\\values-land.xml",
+>>>>>>> 150eccbb0948fa8f8d3c19ea78a5bb665f10f72f
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                },
+                {
+<<<<<<< HEAD
                     "source": "/Users/siddudussa/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-24.0.0.aar/d4e073d065b2b644259fa31c39a6ec40/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
@@ -64,6 +279,24 @@
                         "startOffsets": "705,780,858",
                         "endColumns": "74,77,74",
                         "endOffsets": "775,853,928"
+=======
+                    "source": "/Users/benpusey/Documents/2340-Team31/ShelterMap/C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\aecec4c0ffc1b69327efb56e7d253416\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "13",
+                        "startColumns": "4",
+                        "startOffsets": "933",
+                        "endLines": "16",
+                        "endColumns": "12",
+                        "endOffsets": "1110"
+>>>>>>> 150eccbb0948fa8f8d3c19ea78a5bb665f10f72f
                     }
                 }
             ]

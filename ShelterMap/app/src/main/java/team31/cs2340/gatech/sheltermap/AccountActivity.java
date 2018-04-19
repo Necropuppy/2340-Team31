@@ -18,17 +18,15 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 
-
-
+/**
+ * Class for the AccountActivity (the main screen logic after login)
+ */
 public class AccountActivity extends AppCompatActivity {
-    public static String TAG = "MY_APP";
-    private RecyclerView mRecyclerView;
-    private RecyclerView.Adapter mAdapter;
-    private RecyclerView.LayoutManager mLayoutManager;
+    static String TAG = "MY_APP";
+    //private RecyclerView mRecyclerView;
+    //private RecyclerView.Adapter mAdapter;
+    //private RecyclerView.LayoutManager mLayoutManager;
 
-    private Button logout;
-    private Button search;
-    private Button map;
 
     private String[] shelterNames = new String[13];
 
@@ -37,19 +35,23 @@ public class AccountActivity extends AppCompatActivity {
         Log.d(AccountActivity.TAG, "Successful on create");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_account);
+        RecyclerView mRecyclerView;
+        RecyclerView.Adapter mAdapter;
+        RecyclerView.LayoutManager mLayoutManager;
+
+        Button logout;
+        Button search;
+        Button map;
 
         logout = (Button) findViewById(R.id.logout);
         search = (Button) findViewById(R.id.search);
         map = (Button) findViewById(R.id.map);
-
-        /******************************************************************************************/
 
         logout = (Button) findViewById(R.id.logout);
         logout.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
-                // TODO Auto-generated method stub
                 Intent go2Login = new Intent(getApplicationContext(), WelcomeActivity.class);
                 startActivity(go2Login);
             }
@@ -58,7 +60,6 @@ public class AccountActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                // TODO Auto-generated method stub
                 Intent go2Search = new Intent(getApplicationContext(), SearchActivity.class);
                 startActivity(go2Search);
             }
@@ -72,13 +73,14 @@ public class AccountActivity extends AppCompatActivity {
             }
         });
 
-        /******************************************************************************************/
-
         //String name = getIntent().getStringExtra("Name");
         //TextView userName = (TextView) findViewById(R.id.insertUserName);
         //userName.setText(name);
         Log.d(AccountActivity.TAG, "Before file read");
-        readSDFile();
+        InputStream is = getResources().openRawResource(R.raw.homeless);
+        readSDFile(is);
+        //int x = Shelter.shelters.size();
+        //shelterNames = new String[x];
         //Shelter.updateBedCounts();
         Log.d(AccountActivity.TAG, "After file read");
         mRecyclerView = (RecyclerView) findViewById(R.id.shelter_list);
@@ -93,15 +95,21 @@ public class AccountActivity extends AppCompatActivity {
         mRecyclerView.setAdapter(mAdapter);
     }
 
-    private void readSDFile() {
+    /**
+     * Reads homeless.csv document and populates the shelter arraylist
+     *
+     * @param is InputStream containing the homeless.csv file
+     */
+    public void readSDFile(InputStream is) {
         //SimpleModel model = SimpleModel.INSTANCE;
 
         try {
             //Open a stream on the raw file
-            InputStream is = getResources().openRawResource(R.raw.homeless);
+                //InputStream is = getResources().openRawResource(R.raw.homeless);
             //From here we probably should call a model method and pass the InputStream
             //Wrap it in a BufferedReader so that we get the readLine() method
-            BufferedReader br = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8));
+            BufferedReader br = new BufferedReader(new InputStreamReader(is,
+                    StandardCharsets.UTF_8));
 
             String line;
             int cnt = 0;
@@ -120,7 +128,8 @@ public class AccountActivity extends AppCompatActivity {
                 }
                 double longitude = Double.parseDouble(tokens[4]);
                 double latitude = Double.parseDouble(tokens[5]);
-                Shelter.shelters.add(new Shelter(tokens[1], key, capacity, tokens[3],longitude, latitude, tokens[6]));
+                Shelter.shelters.add(new Shelter(tokens[1], key, capacity,
+                        tokens[3],longitude, latitude, tokens[6]));
                 Log.d(AccountActivity.TAG, "The shelter is " + Shelter.shelters.get(cnt));
                 cnt++;
                 //model.addItem(new DataItem(tokens[NAME_POSITION], tokens[2], id, tokens[3]));
@@ -139,7 +148,7 @@ public class AccountActivity extends AppCompatActivity {
         // you provide access to all the views for a data item in a view holder
         public class ViewHolder extends RecyclerView.ViewHolder {
             // each data item is just a string in this case
-            public TextView mTextView;
+            TextView mTextView;
 
             public ViewHolder(View v) {
                 super(v);
@@ -148,8 +157,8 @@ public class AccountActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         Log.d(TAG, "Element " + getAdapterPosition() + " clicked.");
-                        // TODO Auto-generated method stub
-                        Intent goToDetailed = new Intent(getApplicationContext(), DetailedViewActivity.class);
+                        Intent goToDetailed = new Intent(getApplicationContext(),
+                                DetailedViewActivity.class);
                         goToDetailed.putExtra("Position", getAdapterPosition());
                         startActivity(goToDetailed);
                     }
