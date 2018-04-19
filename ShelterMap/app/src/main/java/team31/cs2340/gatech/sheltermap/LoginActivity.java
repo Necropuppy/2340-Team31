@@ -16,6 +16,7 @@ public class LoginActivity extends AppCompatActivity {
     private EditText password;
     private Button cancel;
     private Button submit;
+    private TextView forgotPassword;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,9 +32,10 @@ public class LoginActivity extends AppCompatActivity {
         cancel = (Button) findViewById(R.id.cancel);
         submit = (Button) findViewById(R.id.submit);
 
+        forgotPassword = (TextView) findViewById(R.id.forgotPassword);
+
         /******************************************************************************************/
 
-        cancel = (Button) findViewById(R.id.cancel);
         cancel.setOnClickListener(new View.OnClickListener() {
 
             // https://androidsolved.wordpress.com/2015/07/01/how-to-move-from-one-activityscreen-to-another-activityscreen-in-android/
@@ -66,5 +68,12 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+        forgotPassword.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent go2ForgotPassword = new Intent(getApplicationContext(), ForgotPasswordActivity.class);
+                startActivity(go2ForgotPassword);
+            }
+        });
     }
 }

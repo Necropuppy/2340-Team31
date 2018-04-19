@@ -22,4 +22,5 @@
     <string name="title_activity_result">ResultActivity</string>
     <string name="title_activity_search_detailed_view">SearchDetailedView</string>
     <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_forgot_password">ForgotPasswordActivity</string>
 </resources>

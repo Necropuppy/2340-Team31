@@ -65,6 +65,10 @@
             android:name="team31.cs2340.gatech.sheltermap.MapActivity"
             android:label="@string/title_activity_map"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="team31.cs2340.gatech.sheltermap.ForgotPasswordActivity"
+            android:label="@string/title_activity_forgot_password"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <meta-data
             android:name="android.support.VERSION"
