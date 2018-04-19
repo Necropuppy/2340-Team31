@@ -3,6 +3,7 @@ package team31.cs2340.gatech.sheltermap;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
@@ -18,8 +19,11 @@ public class LoginActivity extends AppCompatActivity {
     private EditText password;
     private Button cancel;
     private Button submit;
+
+    private TextView lockedOut;
     private TextView forgotPassword;
 
+    private int count = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +41,7 @@ public class LoginActivity extends AppCompatActivity {
         cancel = (Button) findViewById(R.id.cancel);
         submit = (Button) findViewById(R.id.submit);
 
+        lockedOut = (TextView) findViewById(R.id.lockedOut);
         forgotPassword = (TextView) findViewById(R.id.forgotPassword);
 
         /******************************************************************************************/
@@ -55,7 +60,9 @@ public class LoginActivity extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 boolean fail = true;
+
                 for(User u: User.users){
                     if(u.getEmail().equals(email.getText().toString())){
                         if(u.getPassword().equals(password.getText().toString())){
@@ -71,6 +78,28 @@ public class LoginActivity extends AppCompatActivity {
                 if(fail) {
                     //login fail
                     errorText.setVisibility(View.VISIBLE);
+                    count++;
+
+                    if (count == 3) {
+
+                        submit.setVisibility(View.INVISIBLE);
+                        lockedOut.setVisibility(View.VISIBLE);
+
+                        new CountDownTimer(10000, 1000) {
+
+                            public void onTick(long millisUntilFinished) {
+                                lockedOut.setTextColor(Color.parseColor("#FFFF4444"));
+                                lockedOut.setText("You are locked out for: " + (millisUntilFinished / 1000 + 1) + " Seconds");
+                            }
+
+                            public void onFinish() {
+                                lockedOut.setTextColor(Color.parseColor("#FF99CC00"));
+                                lockedOut.setText("You can log back in.");
+                                submit.setVisibility(View.VISIBLE);
+                                count = 0;
+                            }
+                        }.start();
+                    }
                 }
             }
         });
