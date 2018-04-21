@@ -8,6 +8,8 @@
     android:orientation="vertical"
     android:background="@color/colorPrimary"
     android:layout_gravity="center"
+    android:clipChildren = "false"
+    android:clipToPadding="false"
 
     android:gravity="center_horizontal"
     tools:context="team31.cs2340.gatech.sheltermap.AccountActivity">
@@ -17,7 +19,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:scrollbars="vertical">
+        android:scrollbars="vertical"
+        android:clipChildren = "false"
+        android:clipToPadding="false">
 
     </android.support.v7.widget.RecyclerView>
 

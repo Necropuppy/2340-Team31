@@ -196,16 +196,16 @@
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-9.8.0.aar\\0e9b9183bcad5102de0f85968c385a0c\\res\\drawable-xhdpi-v4\\cast_ic_stop_circle_filled_grey600.png"
     },
     {
-        "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_search.png.flat",
-        "source": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\src\\main\\res\\drawable-mdpi\\ic_action_search.png"
-    },
-    {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_quantum_ic_stop_white_24.png.flat",
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-9.8.0.aar\\0e9b9183bcad5102de0f85968c385a0c\\res\\drawable-hdpi-v4\\quantum_ic_stop_white_24.png"
     },
     {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_media_route_on_11_dark.png.flat",
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-24.0.0.aar\\28c14d9fced1de3f58a90d43d6c75da4\\res\\drawable-xhdpi-v4\\ic_media_route_on_11_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_search.png.flat",
+        "source": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\src\\main\\res\\drawable-mdpi\\ic_action_search.png"
     },
     {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -312,16 +312,16 @@
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-24.0.0.aar\\28c14d9fced1de3f58a90d43d6c75da4\\res\\layout\\mr_chooser_dialog.xml"
     },
     {
+        "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_search.png.flat",
+        "source": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\src\\main\\res\\drawable-hdpi\\ic_action_search.png"
+    },
+    {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_collapse_00007.png.flat",
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-24.0.0.aar\\28c14d9fced1de3f58a90d43d6c75da4\\res\\drawable-xxxhdpi-v4\\ic_collapse_00007.png"
     },
     {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\41d5a2855d1b53e13c101b1cfcf2f6d6\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_search.png.flat",
-        "source": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\src\\main\\res\\drawable-hdpi\\ic_action_search.png"
     },
     {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_pause_dark.png.flat",
@@ -342,6 +342,10 @@
     {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_cast_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-9.8.0.aar\\0e9b9183bcad5102de0f85968c385a0c\\res\\drawable-xhdpi-v4\\cast_abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_active_image.png.flat",
+        "source": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\src\\main\\res\\drawable-hdpi\\active_image.png"
     },
     {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_play_dark.png.flat",
@@ -466,6 +470,10 @@
     {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\anim_design_snackbar_out.xml.flat",
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\bcc7036dd364d45baf933f032fa5331d\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_active_image.png.flat",
+        "source": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\src\\main\\res\\drawable-xhdpi\\active_image.png"
     },
     {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
@@ -934,6 +942,10 @@
     {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_quantum_ic_replay_30_grey600_36.png.flat",
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-9.8.0.aar\\0e9b9183bcad5102de0f85968c385a0c\\res\\drawable-hdpi-v4\\quantum_ic_replay_30_grey600_36.png"
+    },
+    {
+        "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_inactive_image.png.flat",
+        "source": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\src\\main\\res\\drawable-mdpi\\inactive_image.png"
     },
     {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_media_route_connecting_11_light.png.flat",
@@ -2156,6 +2168,10 @@
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\41d5a2855d1b53e13c101b1cfcf2f6d6\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
+        "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_spark_button.xml.flat",
+        "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\sparkbutton-1.0.5.aar\\cec41bc99fb663fe02c7d21ac1b4e8b8\\res\\layout\\layout_spark_button.xml"
+    },
+    {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_icon_light_disabled.9.png.flat",
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.8.0.aar\\4386c11074f6a70e1fa3919be85f2322\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png"
     },
@@ -2972,16 +2988,16 @@
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.8.0.aar\\4386c11074f6a70e1fa3919be85f2322\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_normal.9.png"
     },
     {
+        "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_press.xml.flat",
+        "source": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\src\\main\\res\\drawable\\button_press.xml"
+    },
+    {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_text_dark_normal.9.png.flat",
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.8.0.aar\\4386c11074f6a70e1fa3919be85f2322\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal.9.png"
     },
     {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13_design_layout_snackbar.xml.flat",
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\bcc7036dd364d45baf933f032fa5331d\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_press.xml.flat",
-        "source": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\src\\main\\res\\drawable\\button_press.xml"
     },
     {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_search_api_material.xml.flat",
@@ -3304,12 +3320,12 @@
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-9.8.0.aar\\0e9b9183bcad5102de0f85968c385a0c\\res\\drawable-mdpi-v4\\quantum_ic_bigtop_updates_white_24.png"
     },
     {
-        "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_media_route_connecting_19_dark.png.flat",
-        "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-24.0.0.aar\\28c14d9fced1de3f58a90d43d6c75da4\\res\\drawable-xxhdpi-v4\\ic_media_route_connecting_19_dark.png"
-    },
-    {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_map.png.flat",
         "source": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\src\\main\\res\\drawable-mdpi\\ic_action_map.png"
+    },
+    {
+        "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_media_route_connecting_19_dark.png.flat",
+        "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-24.0.0.aar\\28c14d9fced1de3f58a90d43d6c75da4\\res\\drawable-xxhdpi-v4\\ic_media_route_connecting_19_dark.png"
     },
     {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_cast_ic_notification_1.png.flat",
@@ -3356,12 +3372,12 @@
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-9.8.0.aar\\0e9b9183bcad5102de0f85968c385a0c\\res\\drawable-xxxhdpi-v4\\quantum_ic_keyboard_arrow_down_white_36.png"
     },
     {
-        "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_dark.xml.flat",
-        "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\41d5a2855d1b53e13c101b1cfcf2f6d6\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\23c2e7209f52d82d71658b3e5c165a03\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_dark.xml.flat",
+        "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\41d5a2855d1b53e13c101b1cfcf2f6d6\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_text_dark_pressed.9.png.flat",
@@ -4644,6 +4660,10 @@
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\41d5a2855d1b53e13c101b1cfcf2f6d6\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
+        "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_inactive_image.png.flat",
+        "source": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\src\\main\\res\\drawable-hdpi\\inactive_image.png"
+    },
+    {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_text_light_pressed.9.png.flat",
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.8.0.aar\\4386c11074f6a70e1fa3919be85f2322\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_pressed.9.png"
     },
@@ -4694,6 +4714,10 @@
     {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_media_route_disabled_mono_dark.png.flat",
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-24.0.0.aar\\28c14d9fced1de3f58a90d43d6c75da4\\res\\drawable-hdpi-v4\\ic_media_route_disabled_mono_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_inactive_image.png.flat",
+        "source": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\src\\main\\res\\drawable-xhdpi\\inactive_image.png"
     },
     {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_cast_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -4776,6 +4800,10 @@
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-9.8.0.aar\\0e9b9183bcad5102de0f85968c385a0c\\res\\drawable-hdpi-v4\\quantum_ic_volume_up_grey600_36.png"
     },
     {
+        "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_active_image.png.flat",
+        "source": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\src\\main\\res\\drawable-xxhdpi\\active_image.png"
+    },
+    {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_quantum_ic_bigtop_updates_white_24.png.flat",
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-9.8.0.aar\\0e9b9183bcad5102de0f85968c385a0c\\res\\drawable-xxxhdpi-v4\\quantum_ic_bigtop_updates_white_24.png"
     },
@@ -4808,6 +4836,10 @@
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-24.0.0.aar\\28c14d9fced1de3f58a90d43d6c75da4\\res\\drawable-xxhdpi-v4\\ic_media_route_on_08_dark.png"
     },
     {
+        "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_inactive_image.png.flat",
+        "source": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\src\\main\\res\\drawable-xxhdpi\\inactive_image.png"
+    },
+    {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_toolbar.xml.flat",
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\41d5a2855d1b53e13c101b1cfcf2f6d6\\res\\layout\\abc_screen_toolbar.xml"
     },
@@ -4822,6 +4854,10 @@
     {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_tv_dark.png.flat",
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-24.0.0.aar\\28c14d9fced1de3f58a90d43d6c75da4\\res\\drawable-hdpi-v4\\ic_tv_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_active_image.png.flat",
+        "source": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\src\\main\\res\\drawable-mdpi\\active_image.png"
     },
     {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cast_ic_notification_forward30.xml.flat",

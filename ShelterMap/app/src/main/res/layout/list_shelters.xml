@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_height="wrap_content"
-    android:gravity="center_vertical">
+    android:gravity="center_vertical"
+    android:clipChildren = "false"
+    android:clipToPadding="false">
 
     <TextView
         android:id="@+id/textView"
@@ -14,4 +17,18 @@
         android:textSize="18sp"
         android:textColor="@color/text_icon"
         android:layout_gravity="center"/>
+
+    <com.varunest.sparkbutton.SparkButton
+        android:id="@+id/spark_button"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:paddingTop="24dp"
+        app:sparkbutton_activeImage="@drawable/active_image"
+        app:sparkbutton_inActiveImage="@drawable/inactive_image"
+        app:sparkbutton_iconSize="24dp"
+        app:sparkbutton_primaryColor="@color/colorPrimaryLight"
+        app:sparkbutton_secondaryColor="@color/colorPrimaryDark" />
 </FrameLayout>
