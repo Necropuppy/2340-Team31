@@ -11,7 +11,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.TextView;
 
 import java.io.BufferedReader;
@@ -42,23 +41,23 @@ public class AccountActivity extends AppCompatActivity {
         RecyclerView.Adapter mAdapter;
         RecyclerView.LayoutManager mLayoutManager;
 
-        Button logout;
-        Button search;
-        Button map;
+        //Button logout;
+        //Button search;
+        //Button map;
 
-        logout = (Button) findViewById(R.id.logout);
+        //logout = (Button) findViewById(R.id.logout);
         //search = (Button) findViewById(R.id.search);
         //map = (Button) findViewById(R.id.map);
 
-        logout = (Button) findViewById(R.id.logout);
-        logout.setOnClickListener(new View.OnClickListener() {
+        //logout = (Button) findViewById(R.id.logout);
+        /*logout.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
                 Intent go2Login = new Intent(getApplicationContext(), WelcomeActivity.class);
                 startActivity(go2Login);
             }
-        });
+        });*/
         /*search.setOnClickListener(new View.OnClickListener() {
 
             @Override
