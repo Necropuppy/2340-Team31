@@ -47,8 +47,8 @@ public class AccountActivity extends AppCompatActivity {
         Button map;
 
         logout = (Button) findViewById(R.id.logout);
-        search = (Button) findViewById(R.id.search);
-        map = (Button) findViewById(R.id.map);
+        //search = (Button) findViewById(R.id.search);
+        //map = (Button) findViewById(R.id.map);
 
         logout = (Button) findViewById(R.id.logout);
         logout.setOnClickListener(new View.OnClickListener() {
@@ -59,22 +59,22 @@ public class AccountActivity extends AppCompatActivity {
                 startActivity(go2Login);
             }
         });
-        search.setOnClickListener(new View.OnClickListener() {
+        /*search.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
                 Intent go2Search = new Intent(getApplicationContext(), SearchActivity.class);
                 startActivity(go2Search);
             }
-        });
-        map.setOnClickListener(new View.OnClickListener() {
+        });*/
+       /*map.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
                 Intent go2Map = new Intent(getApplicationContext(), MapActivity.class);
                 startActivity(go2Map);
             }
-        });
+        });*/
 
         //String name = getIntent().getStringExtra("Name");
         //TextView userName = (TextView) findViewById(R.id.insertUserName);
@@ -110,6 +110,14 @@ public class AccountActivity extends AppCompatActivity {
 
         if (id == R.id.mybutton) {
             AccountActivity.super.onBackPressed();
+        }
+        if (id == R.id.search) {
+            Intent go2Search = new Intent(getApplicationContext(), SearchActivity.class);
+            startActivity(go2Search);
+        }
+        if (id == R.id.map2) {
+            Intent go2Map = new Intent(getApplicationContext(), MapActivity.class);
+            startActivity(go2Map);
         }
         return super.onOptionsItemSelected(item);
     }

@@ -19,27 +19,6 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/search"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="25dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/button_anim_cancel"
-            android:textColor="@color/text_icon"
-            android:textStyle="bold"
-            android:text="Search" />
-
-        <Button
-            android:id="@+id/map"
-            android:layout_marginRight="50dp"
-            android:background="@drawable/button_anim"
-            android:textColor="@color/text_icon"
-            android:textStyle="bold"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Map" />
     </LinearLayout>
 
 
