@@ -580,6 +580,21 @@
             ]
         },
         {
+            "outputFile": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\values-mr-rIN_values-mr-rIN.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-24.0.0.aar\\28c14d9fced1de3f58a90d43d6c75da4\\res\\values-mr-rIN\\values-mr-rIN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,252,341,433,544,642,741,841,938,1055,1164,1248,1333,1428,1514",
+                        "endColumns": "97,98,88,91,110,97,98,99,96,116,108,83,84,94,85,96",
+                        "endOffsets": "148,247,336,428,539,637,736,836,933,1050,1159,1243,1328,1423,1509,1606"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\values-ca_values-ca.arsc.flat",
             "map": [
                 {
@@ -733,21 +748,6 @@
                         "startOffsets": "3666,3808,3954",
                         "endColumns": "141,145,98",
                         "endOffsets": "3803,3949,4048"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\values-mr-rIN_values-mr-rIN.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-24.0.0.aar\\28c14d9fced1de3f58a90d43d6c75da4\\res\\values-mr-rIN\\values-mr-rIN.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,153,252,341,433,544,642,741,841,938,1055,1164,1248,1333,1428,1514",
-                        "endColumns": "97,98,88,91,110,97,98,99,96,116,108,83,84,94,85,96",
-                        "endOffsets": "148,247,336,428,539,637,736,836,933,1050,1159,1243,1328,1423,1509,1606"
                     }
                 }
             ]
@@ -1358,6 +1358,21 @@
             ]
         },
         {
+            "outputFile": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\values-pa-rIN_values-pa-rIN.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-24.0.0.aar\\28c14d9fced1de3f58a90d43d6c75da4\\res\\values-pa-rIN\\values-pa-rIN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,252,342,433,539,637,732,828,924,1037,1155,1238,1322,1410,1495",
+                        "endColumns": "96,99,89,90,105,97,94,95,95,112,117,82,83,87,84,94",
+                        "endOffsets": "147,247,337,428,534,632,727,823,919,1032,1150,1233,1317,1405,1490,1585"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\values-de_values-de.arsc.flat",
             "map": [
                 {
@@ -1511,21 +1526,6 @@
                         "startOffsets": "10951,11060",
                         "endColumns": "108,94",
                         "endOffsets": "11055,11150"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\values-pa-rIN_values-pa-rIN.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-24.0.0.aar\\28c14d9fced1de3f58a90d43d6c75da4\\res\\values-pa-rIN\\values-pa-rIN.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,152,252,342,433,539,637,732,828,924,1037,1155,1238,1322,1410,1495",
-                        "endColumns": "96,99,89,90,105,97,94,95,95,112,117,82,83,87,84,94",
-                        "endOffsets": "147,247,337,428,534,632,727,823,919,1032,1150,1233,1317,1405,1490,1585"
                     }
                 }
             ]
