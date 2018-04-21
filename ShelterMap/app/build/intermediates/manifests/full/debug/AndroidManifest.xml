@@ -37,16 +37,22 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyDXukcwOESogZwW8YL7gpbBHiTlnJGbhrs" />
 
-        <activity android:name="team31.cs2340.gatech.sheltermap.WelcomeActivity" >
+        <activity
+            android:name="team31.cs2340.gatech.sheltermap.WelcomeActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="team31.cs2340.gatech.sheltermap.LoginActivity" />
+        <activity
+            android:name="team31.cs2340.gatech.sheltermap.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="team31.cs2340.gatech.sheltermap.AccountActivity" />
-        <activity android:name="team31.cs2340.gatech.sheltermap.RegisterActivity" />
+        <activity
+            android:name="team31.cs2340.gatech.sheltermap.RegisterActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="team31.cs2340.gatech.sheltermap.DetailedViewActivity" />
         <activity
             android:name="team31.cs2340.gatech.sheltermap.SearchActivity"

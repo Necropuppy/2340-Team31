@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:2:1-51:12
+ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:2:1-54:12
 MERGED from [com.android.support:multidex:1.0.2] C:\Users\Elmer\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\4501e43a10cf5e27701c06f20b508e51\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\Elmer\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\bcc7036dd364d45baf933f032fa5331d\AndroidManifest.xml:17:1-31:12
 MERGED from [com.google.android.gms:play-services:9.8.0] C:\Users\Elmer\.gradle\caches\transforms-1\files-1.1\play-services-9.8.0.aar\89218227cc6eafc4b26a98bd4fa8f37f\AndroidManifest.xml:2:1-6:12
@@ -71,20 +71,20 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Elmer\.grad
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Elmer\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\9b1d1f70aac4926e778b46949db29cb1\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Elmer\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\23c2e7209f52d82d71658b3e5c165a03\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Elmer\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f32f45b7df7398d8e1bf44fcca0c4749\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:2:1-54:12
 	package
 		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:3:5-46
 		INJECTED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:2:1-51:12
+		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:2:1-54:12
 		INJECTED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:2:1-51:12
+		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:2:1-54:12
 		INJECTED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:2:11-69
@@ -117,7 +117,7 @@ MERGED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\Elmer\.gradle\cach
 	android:name
 		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:7:5-49:19
+ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:7:5-52:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\Elmer\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\bcc7036dd364d45baf933f032fa5331d\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\Elmer\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\bcc7036dd364d45baf933f032fa5331d\AndroidManifest.xml:25:5-29:19
 MERGED from [com.google.android.gms:play-services:9.8.0] C:\Users\Elmer\.gradle\caches\transforms-1\files-1.1\play-services-9.8.0.aar\89218227cc6eafc4b26a98bd4fa8f37f\AndroidManifest.xml:5:5-20
@@ -249,75 +249,81 @@ ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\And
 	android:name
 		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:15:13-58
 activity#team31.cs2340.gatech.sheltermap.WelcomeActivity
-ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:18:9-24:20
+ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:18:9-25:20
+	android:theme
+		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:19:13-56
 	android:name
 		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:18:19-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:22:27-74
+		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:23:27-74
 activity#team31.cs2340.gatech.sheltermap.LoginActivity
-ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:25:9-51
+ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:26:9-27:68
+	android:theme
+		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:27:13-56
 	android:name
-		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:25:19-48
+		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:26:19-48
 activity#team31.cs2340.gatech.sheltermap.AccountActivity
-ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:26:9-53
+ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:28:9-53
 	android:name
-		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:26:19-50
+		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:28:19-50
 activity#team31.cs2340.gatech.sheltermap.RegisterActivity
-ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:27:9-54
+ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:29:9-30:68
+	android:theme
+		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:30:13-56
 	android:name
-		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:27:19-51
+		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:29:19-51
 activity#team31.cs2340.gatech.sheltermap.DetailedViewActivity
-ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:28:9-58
+ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:31:9-58
 	android:name
-		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:28:19-55
+		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:31:19-55
 activity#team31.cs2340.gatech.sheltermap.SearchActivity
-ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:29:9-32:59
+ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:32:9-35:59
 	android:label
-		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:31:13-58
+		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:34:13-58
 	android:theme
-		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:32:13-56
+		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:35:13-56
 	android:name
-		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:30:13-43
+		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:33:13-43
 activity#team31.cs2340.gatech.sheltermap.ResultActivity
-ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:33:9-36:59
+ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:36:9-39:59
 	android:label
-		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:35:13-58
+		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:38:13-58
 	android:theme
-		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:36:13-56
+		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:39:13-56
 	android:name
-		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:34:13-43
+		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:37:13-43
 activity#team31.cs2340.gatech.sheltermap.SearchDetailedView
-ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:37:9-40:59
+ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:40:9-43:59
 	android:label
-		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:39:13-72
+		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:42:13-72
 	android:theme
-		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:40:13-56
+		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:43:13-56
 	android:name
-		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:38:13-47
+		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:41:13-47
 activity#team31.cs2340.gatech.sheltermap.MapActivity
-ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:41:9-44:59
+ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:44:9-47:59
 	android:label
-		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:43:13-55
+		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:46:13-55
 	android:theme
-		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:44:13-56
+		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:47:13-56
 	android:name
-		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:42:13-40
+		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:45:13-40
 activity#team31.cs2340.gatech.sheltermap.ForgotPasswordActivity
-ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:45:9-48:68
+ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:48:9-51:68
 	android:label
-		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:47:13-67
+		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:50:13-67
 	android:theme
-		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:48:13-56
+		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:51:13-56
 	android:name
-		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:46:13-51
+		ADDED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml:49:13-51
 uses-sdk
 INJECTED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Elmer\Desktop\CS2340\2340-Team31\ShelterMap\app\src\main\AndroidManifest.xml

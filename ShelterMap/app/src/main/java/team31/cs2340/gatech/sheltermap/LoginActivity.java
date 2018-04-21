@@ -1,14 +1,17 @@
 package team31.cs2340.gatech.sheltermap;
 
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 /**
  * Class for LoginActivity (the login screen logic)
@@ -52,8 +55,11 @@ public class LoginActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent go2Welcome = new Intent(getApplicationContext(), WelcomeActivity.class);
-                startActivity(go2Welcome);
+                //old way of returning (created new activity)
+                    //Intent go2Welcome = new Intent(getApplicationContext(), WelcomeActivity.class);
+                    //startActivity(go2Welcome);
+                //use onBackPressed to remove multiple activities
+                LoginActivity.super.onBackPressed();
             }
         });
 
@@ -77,8 +83,16 @@ public class LoginActivity extends AppCompatActivity {
                 }
                 if(fail) {
                     //login fail
-                    errorText.setVisibility(View.VISIBLE);
-                    count++;
+                        //errorText.setVisibility(View.VISIBLE);
+                    //using Toast instead of TextView
+                    Context context = getApplicationContext();
+                    CharSequence text = "Login Failed!";
+                    int duration = Toast.LENGTH_SHORT;
+
+                    Toast toast = Toast.makeText(context, text, duration);
+                    toast.setGravity(Gravity.CENTER_VERTICAL, 0, 1100);
+                    toast.show();
+                    count++; //lock out count
 
                     if (count == 3) {
 
@@ -89,7 +103,7 @@ public class LoginActivity extends AppCompatActivity {
 
                             public void onTick(long millisUntilFinished) {
                                 lockedOut.setTextColor(Color.parseColor("#FFFF4444"));
-                                lockedOut.setText("You are locked out for: " + (millisUntilFinished / 1000 + 1) + " Seconds");
+                                lockedOut.setText("You are locked out for: " + (millisUntilFinished / 1000 + 1) + " seconds.");
                             }
 
                             public void onFinish() {

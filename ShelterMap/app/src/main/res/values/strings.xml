@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ShelterMap</string>
+    <string name="app_name">ShelterMapp</string>
     <string name="app_title">Shelter Mapp</string>
     <string name="login">Log In</string>
     <string name="sign_up">Sign Up</string>

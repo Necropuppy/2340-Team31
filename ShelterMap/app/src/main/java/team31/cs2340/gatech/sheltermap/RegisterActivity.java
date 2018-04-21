@@ -1,8 +1,9 @@
 package team31.cs2340.gatech.sheltermap;
 
-import android.content.Intent;
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -44,6 +45,7 @@ public class RegisterActivity extends AppCompatActivity {
                 android.R.layout.simple_spinner_item, User.legalTypes);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         typeSpinner.setAdapter(adapter);
+        typeSpinner.setVisibility(View.INVISIBLE);
 
         cancel = (Button) findViewById(R.id.cancel);
         cancel.setOnClickListener(new View.OnClickListener() {
@@ -51,9 +53,11 @@ public class RegisterActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-
-                Intent go2Welcome = new Intent(getApplicationContext(), WelcomeActivity.class);
-                startActivity(go2Welcome);
+                //old way of returning (created new activity)
+                    //Intent go2Welcome = new Intent(getApplicationContext(), WelcomeActivity.class);
+                    //startActivity(go2Welcome);
+                //use onBackPressed to remove multiple instances
+                RegisterActivity.super.onBackPressed();
             }
         });
 
@@ -67,8 +71,13 @@ public class RegisterActivity extends AppCompatActivity {
                 for(User u: User.users){
                     if(u.getEmail().equals(email.getText().toString())){
                         fail = true;
-                        Toast.makeText(view.getContext(), "Email address already in use",
-                                Toast.LENGTH_LONG).show();
+                        Context context = getApplicationContext();
+                        CharSequence text = "Email Already Used!";
+                        int duration = Toast.LENGTH_SHORT;
+
+                        Toast toast = Toast.makeText(context, text, duration);
+                        toast.setGravity(Gravity.CENTER_VERTICAL, 0, 1100);
+                        toast.show();
                     }
                 }
                 if(!fail){
@@ -78,9 +87,19 @@ public class RegisterActivity extends AppCompatActivity {
                     //User.users.add(newUser);
                     User.currentUser = newUser;
                     User.saveUsers(view.getContext());
-                    Intent go2Account = new Intent(RegisterActivity.this,
-                            AccountActivity.class);
-                    startActivity(go2Account);
+                    //go to login instead of directly into account
+                    //Intent go2Account = new Intent(RegisterActivity.this,
+                            //LoginActivity.class);
+                    //using Toast to inform user that account was created
+                    Context context = getApplicationContext();
+                    CharSequence text = "Account created!";
+                    int duration = Toast.LENGTH_SHORT;
+
+                    Toast toast = Toast.makeText(context, text, duration);
+                    toast.setGravity(Gravity.CENTER_VERTICAL, 0, 880);
+                    toast.show();
+                    //startActivity(go2Account);
+                    RegisterActivity.super.onBackPressed();
                 }
                 //Register fail - duplicate email
             }
