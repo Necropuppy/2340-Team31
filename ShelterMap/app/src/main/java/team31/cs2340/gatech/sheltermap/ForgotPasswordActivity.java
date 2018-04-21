@@ -1,13 +1,11 @@
 package team31.cs2340.gatech.sheltermap;
 
-import android.content.Intent;
+import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -23,8 +21,22 @@ public class ForgotPasswordActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_forgot_password);
+        Button cancel;
 
         email = (EditText) findViewById(R.id.email);
+        cancel = (Button) findViewById(R.id.cancel);
+        cancel.setOnClickListener(new View.OnClickListener() {
+
+
+            @Override
+            public void onClick(View view) {
+                //old way of returning (created new activity)
+                    //Intent go2Welcome = new Intent(getApplicationContext(), WelcomeActivity.class);
+                    //startActivity(go2Welcome);
+                //use onBackPressed to remove multiple instances
+                ForgotPasswordActivity.super.onBackPressed();
+            }
+        });
         send = (Button) findViewById(R.id.send);
 
         final TextView invalidEmail = (TextView) findViewById(R.id.invalidEmail);
@@ -41,14 +53,29 @@ public class ForgotPasswordActivity extends AppCompatActivity {
                         new SendMail().execute(u.getEmail(), u.getPassword());
 
                         fail = false;
-                        invalidEmail.setVisibility(View.INVISIBLE);
-                        validEmail.setVisibility(View.VISIBLE);
+                        //invalidEmail.setVisibility(View.INVISIBLE);
+                        //validEmail.setVisibility(View.VISIBLE);
+                        Context context = getApplicationContext();
+                        CharSequence text = "Password Sent To Email!";
+                        int duration = Toast.LENGTH_SHORT;
+
+                        Toast toast = Toast.makeText(context, text, duration);
+                        toast.setGravity(Gravity.CENTER_VERTICAL, 0, 1100);
+                        toast.show();
+                        ForgotPasswordActivity.super.onBackPressed();
                     }
                 }
                 if(fail) {
                     //login fail
-                    validEmail.setVisibility(View.INVISIBLE);
-                    invalidEmail.setVisibility(View.VISIBLE);
+                    //validEmail.setVisibility(View.INVISIBLE);
+                    //invalidEmail.setVisibility(View.VISIBLE);
+                    Context context = getApplicationContext();
+                    CharSequence text = "Invalid Email!";
+                    int duration = Toast.LENGTH_SHORT;
+
+                    Toast toast = Toast.makeText(context, text, duration);
+                    toast.setGravity(Gravity.CENTER_VERTICAL, 0, 1100);
+                    toast.show();
                 }
             }
         });
