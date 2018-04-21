@@ -7,11 +7,55 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/colorPrimary"
+    android:layout_gravity="center"
+
+    android:gravity="center_horizontal"
     tools:context="team31.cs2340.gatech.sheltermap.AccountActivity">
+    <LinearLayout
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/search"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_anim_cancel"
+            android:textColor="@color/text_icon"
+            android:textStyle="bold"
+            android:text="Search" />
+
+        <Button
+            android:id="@+id/map"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/button_anim"
+            android:textColor="@color/text_icon"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Map" />
+    </LinearLayout>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/shelter_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:scrollbars="vertical">
+
+    </android.support.v7.widget.RecyclerView>
 
     <Button
         android:id="@+id/logout"
-        android:background="@drawable/button_border"
+        android:background="@drawable/button_anim"
         android:textColor="@color/text_icon"
         android:textStyle="bold"
         android:layout_width="wrap_content"
@@ -21,32 +65,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/search"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/button_border"
-        android:textColor="@color/text_icon"
-        android:textStyle="bold"
-        android:text="Search" />
-
-    <Button
-        android:id="@+id/map"
-        android:background="@drawable/button_border"
-        android:textColor="@color/text_icon"
-        android:textStyle="bold"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Map" />
-
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/shelter_list"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scrollbars="vertical">
-
-    </android.support.v7.widget.RecyclerView>
 </LinearLayout>
 
     <!--

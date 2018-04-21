@@ -8,7 +8,9 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAlignment="center"
         android:text="test"
+        android:paddingTop="24dp"
         android:textSize="18sp"
         android:textColor="@color/text_icon"
         android:layout_gravity="center"/>

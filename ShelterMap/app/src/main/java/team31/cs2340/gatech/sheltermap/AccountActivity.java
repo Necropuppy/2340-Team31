@@ -7,6 +7,8 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -29,6 +31,7 @@ public class AccountActivity extends AppCompatActivity {
 
 
     private String[] shelterNames = new String[13];
+    //private Object Menu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -93,6 +96,22 @@ public class AccountActivity extends AppCompatActivity {
         // specify an adapter (see also next example)
         mAdapter = new MyAdapter(shelterNames);
         mRecyclerView.setAdapter(mAdapter);
+    }
+    // create an action bar button
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.mymenu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    // handle button activities
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == R.id.mybutton) {
+            AccountActivity.super.onBackPressed();
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     /**

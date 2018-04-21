@@ -244,6 +244,10 @@
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-plus-9.8.0.aar\\243a0e26b6a55e94e2dcb6c977f925c7\\res\\drawable-xhdpi-v4\\ic_plusone_medium_off_client.png"
     },
     {
+        "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_logout.png.flat",
+        "source": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\src\\main\\res\\drawable-hdpi\\ic_action_logout.png"
+    },
+    {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_pause_light.png.flat",
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-24.0.0.aar\\28c14d9fced1de3f58a90d43d6c75da4\\res\\drawable-xxhdpi-v4\\ic_pause_light.png"
     },
@@ -2524,6 +2528,10 @@
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-24.0.0.aar\\28c14d9fced1de3f58a90d43d6c75da4\\res\\drawable-hdpi-v4\\ic_speaker_group_dark.png"
     },
     {
+        "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_logout.png.flat",
+        "source": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_logout.png"
+    },
+    {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\layout-v26_abc_screen_toolbar.xml.flat",
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\41d5a2855d1b53e13c101b1cfcf2f6d6\\res\\layout-v26\\abc_screen_toolbar.xml"
     },
@@ -2878,6 +2886,10 @@
     {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_quantum_ic_bigtop_updates_white_24.png.flat",
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-9.8.0.aar\\0e9b9183bcad5102de0f85968c385a0c\\res\\drawable-xxhdpi-v4\\quantum_ic_bigtop_updates_white_24.png"
+    },
+    {
+        "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\menu_mymenu.xml.flat",
+        "source": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\src\\main\\res\\menu\\mymenu.xml"
     },
     {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -4040,6 +4052,10 @@
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\41d5a2855d1b53e13c101b1cfcf2f6d6\\res\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_logout.png.flat",
+        "source": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_logout.png"
+    },
+    {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_expand_00004.png.flat",
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-24.0.0.aar\\28c14d9fced1de3f58a90d43d6c75da4\\res\\drawable-xxxhdpi-v4\\ic_expand_00004.png"
     },
@@ -4510,6 +4526,10 @@
     {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_cast_album_art_placeholder.png.flat",
         "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-9.8.0.aar\\0e9b9183bcad5102de0f85968c385a0c\\res\\drawable-nodpi-v4\\cast_album_art_placeholder.png"
+    },
+    {
+        "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_logout.png.flat",
+        "source": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\src\\main\\res\\drawable-mdpi\\ic_action_logout.png"
     },
     {
         "merged": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_btn_checkable.xml.flat",
