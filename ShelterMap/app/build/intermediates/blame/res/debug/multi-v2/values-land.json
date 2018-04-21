@@ -1,10 +1,37 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/siddudussa/OneDrive - Georgia Institute of Technology/Georgia Institute of Technology/Classes/2. Sophomore/Spring Semester 2018/CS 2340/Milestones/2340-Team31/ShelterMap/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "/Users/siddudussa/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/b4f1a8d290623b2ec5cbfac073d20ca9/res/values-land/values-land.xml",
+                    "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\41d5a2855d1b53e13c101b1cfcf2f6d6\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-9.8.0.aar\\0e9b9183bcad5102de0f85968c385a0c\\res\\values-land\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7",
+                        "startColumns": "0,0,0,0",
+                        "startOffsets": "183,271,358,453",
+                        "endColumns": "87,86,94,90",
+                        "endOffsets": "270,357,452,543"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "328,420,511,610",
+                        "endColumns": "91,90,98,94",
+                        "endOffsets": "415,506,605,700"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\bcc7036dd364d45baf933f032fa5331d\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,34 +50,7 @@
                     }
                 },
                 {
-                    "source": "/Users/siddudussa/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.8.0.aar/acfc860e1e00e1408602d736f9b04de0/res/values-land/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7",
-                        "startColumns": "0,0,0,0",
-                        "startOffsets": "183,271,358,453",
-                        "endColumns": "87,86,94,90",
-                        "endOffsets": "270,357,452,543"
-                    },
-                    "to": {
-                        "startLines": "6,7,8,9",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "328,420,511,610",
-                        "endColumns": "91,90,98,94",
-                        "endOffsets": "415,506,605,700"
-                    }
-                },
-                {
-                    "source": "/Users/siddudussa/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/33c4e8ea0d90b616b72cfaa5a7930d4c/res/values-land/values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,125,189,260",
-                        "endColumns": "69,63,70,67",
-                        "endOffsets": "120,184,255,323"
-                    }
-                },
-                {
-                    "source": "/Users/siddudussa/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-24.0.0.aar/d4e073d065b2b644259fa31c39a6ec40/res/values-land/values-land.xml",
+                    "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-24.0.0.aar\\28c14d9fced1de3f58a90d43d6c75da4\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
