@@ -26,6 +26,7 @@ public class User {
     //public static int ResNum = 0;
     //public static int ShelterId = -1;
     static User currentUser;
+    static boolean annonymous = false;
 
     public static final List<String> legalTypes = Arrays.asList("Admin", "Shelter Worker",
             "Shelter Seeker");

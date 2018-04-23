@@ -68,6 +68,7 @@ public class DetailedViewActivity extends AppCompatActivity{
 
             @Override
             public void onClick(View view) {
+                if(User.annonymous) return;
                 String value= famnum.getText().toString();
                 int i;
                 try {
@@ -101,6 +102,7 @@ public class DetailedViewActivity extends AppCompatActivity{
 
             @Override
             public void onClick(View view) {
+                if(User.annonymous)return;
 
                if(User.currentUser.getUserReserved() == 1){
                    if(User.currentUser.getUserShelterId() == shelter.getKey()){

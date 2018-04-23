@@ -21,9 +21,11 @@ public class WelcomeActivity extends AppCompatActivity {
         User.loadUsers(this);
         Button login;
         Button register;
+        Button skip;
 
         login = (Button) findViewById(R.id.login);
         register = (Button) findViewById(R.id.register);
+        skip = (Button) findViewById(R.id.skip);
 
         login.setOnClickListener(new View.OnClickListener() {
 
@@ -44,6 +46,17 @@ public class WelcomeActivity extends AppCompatActivity {
 
                 Intent Reg = new Intent(getApplicationContext(), RegisterActivity.class);
                 startActivity(Reg);
+            }
+        });
+
+        skip.setOnClickListener(new View.OnClickListener() {
+
+
+            @Override
+            public void onClick(View view) {
+                User.annonymous = true;
+                Intent go2Login = new Intent(getApplicationContext(), AccountActivity.class);
+                startActivity(go2Login);
             }
         });
     }
