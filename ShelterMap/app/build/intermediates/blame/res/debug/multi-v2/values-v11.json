@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Nathan\\Desktop\\cs2340 Project\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "C:\\Users\\Elmer\\Desktop\\CS2340\\2340-Team31\\ShelterMap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Nathan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\dda4bdc6b67ea46a1c393e25eb929a40\\res\\values-v11\\values-v11.xml",
+                    "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\41d5a2855d1b53e13c101b1cfcf2f6d6\\res\\values-v11\\values-v11.xml",
                     "from": {
                         "startLines": "2,8,14,20,26,32,38,39,43,47,48,52,56,57,61,66,71,76,78,80,81,82,136,191",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Nathan\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-appinvite-9.8.0.aar\\b3bbd17bdc4d2259dc5abc8b00e0d512\\res\\values-v11\\values.xml",
+                    "source": "C:\\Users\\Elmer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-appinvite-9.8.0.aar\\fb8de8641f7f3ca0184cb011378a9b05\\res\\values-v11\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
