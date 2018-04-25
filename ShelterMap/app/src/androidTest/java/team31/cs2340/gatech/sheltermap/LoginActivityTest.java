@@ -70,6 +70,14 @@ public class LoginActivityTest {
     @Test
     public void testWrongUsernameRightPassword() {
 
+                // enter an incorrect username
+        onView(withId(R.id.email)).perform(typeText("incorrect email"), closeSoftKeyboard());
+
+        // enter a correct password
+        onView(withId(R.id.password)).perform(typeText("Hello123!"), closeSoftKeyboard());
+
+
+        onView(withId(R.id.submit)).perform(click());
 
         onView(withId(R.id.textView2)).check(matches(not(withText("Login Failed"))));
     }
