@@ -13,6 +13,7 @@ import static android.support.test.espresso.action.ViewActions.click;
 import static android.support.test.espresso.action.ViewActions.closeSoftKeyboard;
 import static android.support.test.espresso.action.ViewActions.typeText;
 import static android.support.test.espresso.assertion.ViewAssertions.matches;
+import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
 import static android.support.test.espresso.matcher.ViewMatchers.withText;
 
@@ -65,7 +66,34 @@ public class WelcomeActivityTest {
         }
     }
 
+    @Test
+    public void testCancel() {
 
+        onView(withId(R.id.login)).perform(click());
+        // enter a correct username
+        onView(withId(R.id.email)).perform(typeText("siddudussa@gmail.com"), closeSoftKeyboard());
 
+        // enter a correct password
+        onView(withId(R.id.password)).perform(typeText("Hello123!"), closeSoftKeyboard());
+
+        // result
+        onView(withId(R.id.cancel)).perform(click());
+        onView(withId(R.id.login)).check(matches(isDisplayed()));
+
+    }
+
+    @Test
+    public void testWelcomeReturn() {
+        onView(withId(R.id.register)).perform(click());
+
+        // enter an incorrect password
+        onView(withId(R.id.password)).perform(typeText("anypassword"), closeSoftKeyboard());
+
+        onView(withId(R.id.cancel)).perform(click());
+
+        // result
+        onView(withId(R.id.login)).check(matches(isDisplayed()));
+
+    }
 
 }

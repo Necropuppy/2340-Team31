@@ -29,7 +29,7 @@ import static org.hamcrest.Matchers.not;
 import static org.junit.Assert.assertTrue;
 
 @RunWith(AndroidJUnit4.class)
-public class LoginActivityTest {
+public class MiscLoginTests {
 
     @Before
     public void setUp() {
@@ -41,41 +41,16 @@ public class LoginActivityTest {
     public ActivityTestRule<LoginActivity> lActivityRule =
             new ActivityTestRule<>(LoginActivity.class);
 
+
+
     @Test
-    public void testWrongUsernameWrongPassword() {
-        // enter an incorrect username
-        onView(withId(R.id.email)).perform(typeText("incorrect email"), closeSoftKeyboard());
-
-        // enter an incorrect password
-        onView(withId(R.id.password)).perform(typeText("incorrect password"), closeSoftKeyboard());
-
-        // result
-        onView(withId(R.id.textView2)).check(matches(not(withText("Login Failed"))));
+    public void testForgotPassword() {
+        onView(withId(R.id.forgotPassword)).perform(click());
+        onView(withId(R.id.textView10)).check(matches(isDisplayed()));
     }
 
     @Test
-    public void testRightUsernameWrongPassword() {
-        // enter a correct username
-        onView(withId(R.id.email)).perform(typeText("siddudussa@gmail.com"), closeSoftKeyboard());
-
-        // enter an incorrect correct password
-        onView(withId(R.id.password)).perform(typeText("incorrect password"), closeSoftKeyboard());
-
-        // result
-        onView(withId(R.id.submit)).perform(click());
-
-        onView(withId(R.id.textView2)).check(matches(not(withText("Login Failed"))));
-    }
-
-    @Test
-    public void testWrongUsernameRightPassword() {
-
-
-        onView(withId(R.id.textView2)).check(matches(not(withText("Login Failed"))));
-    }
-
-    @Test
-    public void testRightUsernameRightPassword() {
+    public void testLoginLogout() {
         // enter a correct username
         onView(withId(R.id.email)).perform(typeText("siddudussa@gmail.com"), closeSoftKeyboard());
 
@@ -85,9 +60,9 @@ public class LoginActivityTest {
         // result
         onView(withId(R.id.submit)).perform(click());
 
-        onView(withText("My Sister's House")).check(matches(withText("My Sister's House")));
-        Espresso.pressBack();
-    }
+        onView(withId(R.id.mybutton)).perform(click());
+        onView(withId(R.id.email)).check(matches(isDisplayed()));
 
+    }
 
 }

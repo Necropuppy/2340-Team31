@@ -13,11 +13,13 @@ import static android.support.test.espresso.action.ViewActions.click;
 import static android.support.test.espresso.action.ViewActions.closeSoftKeyboard;
 import static android.support.test.espresso.action.ViewActions.typeText;
 import static android.support.test.espresso.assertion.ViewAssertions.matches;
+import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
 import static android.support.test.espresso.matcher.ViewMatchers.withText;
 
 
 import static junit.framework.Assert.fail;
+import static org.hamcrest.core.IsNot.not;
 
 
 @RunWith(AndroidJUnit4.class)
@@ -43,12 +45,8 @@ public class RegisterActivityTest {
         onView(withId(R.id.submit)).perform(click());
 
         // result
-        try {
-            onView(withId(R.id.logout));
-        }
-        catch (Exception e) {
-            fail();
-        }
+        onView(withId(R.id.login)).check(matches(isDisplayed()));
+
     }
 
     @Test
@@ -67,7 +65,6 @@ public class RegisterActivityTest {
 
     @Test
     public void testNoEmail() {
-        // enter an incorrect username
 
         // enter an incorrect password
         onView(withId(R.id.password)).perform(typeText("anypassword"), closeSoftKeyboard());
@@ -77,4 +74,6 @@ public class RegisterActivityTest {
         // result
         onView(withId(R.id.email)).check(matches(withText("")));
     }
+
+
 }

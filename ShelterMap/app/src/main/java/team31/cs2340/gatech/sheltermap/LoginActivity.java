@@ -74,6 +74,7 @@ public class LoginActivity extends AppCompatActivity {
                         if(u.getPassword().equals(password.getText().toString())){
                             //login success
                             User.currentUser = u;
+                            User.annonymous = false;
                             Intent go2Account = new Intent(LoginActivity.this,
                                     AccountActivity.class);
                             startActivity(go2Account);
